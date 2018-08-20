@@ -19,6 +19,13 @@
   margin: 0 auto;
   left: 50px;
 }
+.platform-modal-assistant {
+  max-width: 45rem;
+  position: relative;
+  margin: 0 auto;
+  left: 50px;
+
+}
 .platform-modal__body {
   height: 300px;
   padding: 1.5rem;
@@ -37,6 +44,7 @@
   width: 600px;
   
 }
+
 .platform-modal__from-group {
   position: relative;
   margin-bottom: 1.5rem;
@@ -265,4 +273,8 @@
 }
 .modal-body2 {
   overflow-y: scroll;
+}
+.modal-body-assistant {
+  overflow-y: scroll;
+  height: 350px;
 }

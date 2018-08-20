@@ -2073,6 +2073,8 @@ color: white ;
   float: left;
   width: 58px;
   height: 530px;
+  position: absolute;
+  top: 751px;
 }
 .event-dots-invitations {
   float: left;

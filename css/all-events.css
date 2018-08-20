@@ -219,3 +219,9 @@ left: 27px;
     bottom: 7px;
     font-weight: bold;
 }
+.open-assistant, .creator-photo, .creator-name {
+    cursor: pointer;
+}
+.body-assistants {
+    width: 180px;
+}

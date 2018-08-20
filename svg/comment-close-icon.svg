@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1737 7866 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9a9fbf;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Close_Icon" data-name="Close Icon" transform="translate(1736.485 7865.485)">
+    <g id="Group_197" data-name="Group 197" transform="translate(0.515 0.515)">
+      <path id="Path_1498" data-name="Path 1498" class="cls-1" d="M6.69,8.34H8.34V6.69H6.69Zm7.825-6.658L13.348.515,8.682,5.182,9.848,6.348Zm-14,11.667,1.167,1.167L6.348,9.849,5.181,8.682Zm8.167-3.5,4.667,4.666,1.167-1.167L9.848,8.682ZM.515,1.682,5.182,6.348,6.349,5.182,1.682.515Z" transform="translate(-0.515 -0.515)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" hight="18" viewBox="11049 763.486 14 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9a9fbf;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Иконка" transform="translate(10536.5 127.486)">
+    <path id="Path_1947" data-name="Path 1947" class="cls-1" d="M524.5,650V640h-10v12h8v2h-8a1.9,1.9,0,0,1-2-1.778V639.778a1.9,1.9,0,0,1,2-1.778h10a1.9,1.9,0,0,1,2,1.778V650Z"/>
+    <path id="Path_1948" data-name="Path 1948" class="cls-1" d="M524.5,652h2v2h-2Z"/>
+    <path id="Path_1949" data-name="Path 1949" class="cls-1" d="M516.5,644h6v2h-6Z"/>
+    <path id="Path_1950" data-name="Path 1950" class="cls-1" d="M516.5,648h2v2h-2Z"/>
+    <path id="Path_1951" data-name="Path 1951" class="cls-1" d="M520.5,648h2v2h-2Z"/>
+    <path id="Path_1952" data-name="Path 1952" class="cls-1" d="M516.5,636a1,1,0,0,1,1,1v4a1,1,0,0,1-2,0v-4A1,1,0,0,1,516.5,636Z"/>
+    <path id="Path_1953" data-name="Path 1953" class="cls-1" d="M522.5,636a1,1,0,0,1,1,1v4a1,1,0,0,1-2,0v-4A1,1,0,0,1,522.5,636Z"/>
+  </g>
+</svg>

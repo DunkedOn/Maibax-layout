@@ -1,0 +1,86 @@
+.Whiteboard {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 5;
+  display: block;
+  padding: 4.3rem 4.5rem 0 0;
+  position: relative;
+}
+.Whiteboard-Toolbar {
+  width: 5rem;
+  height: 100%;
+  background-color: var(--platform-bg-grey);
+  top: 0;
+  position: absolute;
+  padding-top: 4.5rem;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+}
+.Whiteboard-ToolIcon {
+  width: 1.5rem;
+}
+.Whiteboard-Tool {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  padding: 0.8rem;
+  position: relative;
+}
+.Whiteboard-Tool_Wrapper:after {
+  content: "";
+  position: absolute;
+  display: block;
+  right: 0.6rem;
+  top: 1.1rem;
+  width: 0.5rem;
+  height: 0.8rem;
+  background-image: url(../svg/whiteboard/more.svg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Whiteboard-Tool:hover {
+  filter: brightness(0.7);
+}
+.Whiteboard-InnerTools {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  min-width: 45px;
+  height: 100%;
+  background-color: aqua;
+  padding: 0;
+  background: transparent;
+}
+.Whiteboard-Tool:hover .Whiteboard-InnerTools {
+  display: flex;
+}
+.Whiteboard-Steps {
+  position: absolute;
+  top: 5.5rem;
+  left: 7rem;
+  width: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+.Whiteboard-Step {
+  width: 1.6rem;
+  cursor: pointer;
+}
+.Whiteboard-Step:hover {
+  filter: brightness(0.7);
+}
+.Whiteboard-Canvas {
+    position: absolute;
+    left: 5rem;
+    top: 4.3rem;
+    background-color: #fff;
+    width: calc(100% - 5rem);
+    height: calc(100% - 4.3rem);
+}

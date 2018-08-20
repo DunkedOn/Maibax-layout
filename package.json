@@ -1,0 +1,25 @@
+{
+  "name": "maibax-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/geralexndr/Maibax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/geralexndr/Maibax/issues"
+  },
+  "homepage": "https://gitlab.com/geralexndr/Maibax#README",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "slick-carousel": "^1.8.1"
+  }
+}

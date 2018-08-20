@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="11314.102 242.585 19.798 19.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #515365;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Крестик" transform="translate(10536.5 242.486)">
+    <path id="Path_1997" data-name="Path 1997" class="cls-1" d="M788.5,9v2h-2V9Z"/>
+    <path id="Path_1998" data-name="Path 1998" class="cls-1" d="M795.985,2.928l-5.657,5.657-1.414-1.414,5.657-5.657Z"/>
+    <path id="Path_1999" data-name="Path 1999" class="cls-1" d="M786.086,12.828l-5.657,5.657-1.414-1.415,5.656-5.656Z"/>
+    <path id="Path_2000" data-name="Path 2000" class="cls-1" d="M794.571,18.485l-5.657-5.657,1.414-1.414,5.657,5.656Z"/>
+    <path id="Path_2001" data-name="Path 2001" class="cls-1" d="M784.671,8.585l-5.656-5.656,1.414-1.415,5.657,5.657Z"/>
+    <path id="Path_2002" data-name="Path 2002" class="cls-1" d="M795.985,2.928l-5.657,5.657-1.414-1.414,5.657-5.657Z"/>
+    <path id="Path_2003" data-name="Path 2003" class="cls-1" d="M786.086,12.828l-5.657,5.657-1.414-1.415,5.656-5.656Z"/>
+    <path id="Path_2004" data-name="Path 2004" class="cls-1" d="M794.571,18.485l-5.657-5.657,1.414-1.414,5.657,5.656Z"/>
+    <path id="Path_2005" data-name="Path 2005" class="cls-1" d="M784.671,8.585l-5.656-5.656,1.414-1.415,5.657,5.657Z"/>
+  </g>
+</svg>

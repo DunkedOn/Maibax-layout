@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="10574 301.485 18 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_327" data-name="Group 327" transform="translate(10536.5 242.486)">
+    <path id="Path_1916" data-name="Path 1916" class="cls-1" d="M53.5,79h2v2h-2Z"/>
+    <path id="Path_1917" data-name="Path 1917" class="cls-1" d="M53.5,63h-14V79h12v2h-12a2,2,0,0,1-2-2V63a2,2,0,0,1,2-2h14a2,2,0,0,1,2,2V77h-2Z"/>
+    <path id="Path_1918" data-name="Path 1918" class="cls-1" d="M42.5,75h2v2h-2Z"/>
+    <path id="Path_1919" data-name="Path 1919" class="cls-1" d="M45.5,75h2v2h-2Z"/>
+    <path id="Path_1920" data-name="Path 1920" class="cls-1" d="M48.5,75h2v2h-2Z"/>
+    <path id="Path_1921" data-name="Path 1921" class="cls-1" d="M42.5,72h5v2h-5Z"/>
+    <path id="Path_1922" data-name="Path 1922" class="cls-1" d="M48.5,72h2v2h-2Z"/>
+    <path id="Path_1923" data-name="Path 1923" class="cls-1" d="M42.5,69h5v2h-5Z"/>
+    <path id="Path_1924" data-name="Path 1924" class="cls-1" d="M48.5,69h2v2h-2Z"/>
+    <path id="Path_1925" data-name="Path 1925" class="cls-1" d="M42.5,59a1,1,0,0,1,1,1v4a1,1,0,0,1-2,0V60A1,1,0,0,1,42.5,59Z"/>
+    <path id="Path_1926" data-name="Path 1926" class="cls-1" d="M50.5,59a1,1,0,0,1,1,1v4a1,1,0,0,1-2,0V60A1,1,0,0,1,50.5,59Z"/>
+  </g>
+</svg>

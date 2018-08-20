@@ -1,0 +1,248 @@
+.platform-modal {
+  max-width: 36rem;
+}
+.platform-modal2 {
+  max-width: 45rem;
+  position: relative;
+  margin: 0 auto;
+  left: 25px;
+}
+.platform-modal__body {
+  height: 300px;
+  padding: 1.5rem;
+  position: relative;
+}
+.platform-modal__body2 {
+  height: 550px;
+  padding: 1.5rem;
+  position: relative;
+  
+}
+.platform-modal__from-group {
+  position: relative;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+.platform-modal__from-group:last-child {
+  margin-bottom: 0;
+}
+.platform-modal__label {
+  position: absolute;
+  top: 0.2rem;
+  left: 1.5rem;
+  color: var(--text-color-2);
+  width: 100%;
+}
+.platform-modal__input {
+  width: 100%;
+  height: 4rem;
+  border-radius: 3px;
+  border: 1px solid var(--border-color-2);
+  padding: 0.8rem 1.5rem 0.2rem;
+  background-repeat: no-repeat;
+  background-position: 98%;
+  color: var(--text-color);
+  
+}
+.platform-modal__input--date {
+  background-image: url(../svg/date-input-icon.svg);
+  max-width: 48%;
+  border: 1px solid #D8DBE6;
+  border-radius: 2px;
+}
+.platform-modal__from-group-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.platform-modal__input--time {
+  max-width: 48%;
+  left: 172px;
+  bottom: 47px;
+  border: 1px solid #D8DBE6;
+  border-radius: 2px;
+}
+.platform-modal__input--time-zone {
+  max-width: 48%;
+}
+.platform-modal__input--dropdown {
+  background-position: 95%;
+  background-image: url(../svg/input-dropdown-arrow.svg);
+}
+
+.platform-modal__input--description {
+  height: 9rem;
+  padding-top: 1.5rem;
+  resize: none;
+  position: relative;
+  bottom: 30px;
+}
+.platform-modal__dropdown {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  padding-top: 4rem;
+  display: none;
+}
+.platform-modal__input--time:hover .platform-modal__dropdown {
+  display: block;
+}
+.platform-modal__input--time-zone:hover .platform-modal__dropdown {
+  display: block;
+}
+.platform-modal__dropdown-item {
+  padding: 1.5rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  cursor: pointer;
+}
+.platform-modal__dropdown-item:hover {
+  background-color: var(--light-grey-bg);
+}
+.platform-modal__create-btn {
+  width: 100%;
+  width:125px ;
+  height: 25px;
+  font-weight: 600;
+  background-color: white;
+  border: 1px solid #ACAFC2;
+}
+.platform-modal__friends-list {
+  width: 24rem;
+  height: 398px;
+  position: absolute;
+  left: 100%;
+  top: -5rem;
+  background-color: #fff;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+}
+.platform-modal__friends-search {
+  width: 100%;
+  border: none;
+  padding: 1.3rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+  outline: none;
+}
+.platform-modal__select-friends {
+  padding: 1rem 0;
+  display: block;
+  position: relative;
+  overflow-y: auto;
+  height: 33rem;
+}
+.platform-modal__select-friends::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.platform-modal__select-friends::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.platform-modal__select-friends::-webkit-scrollbar-thumb {
+  background: var(--text-color-2);
+  border-radius: 10px;
+}
+.platform-modal__select-friend-upic {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: var(--placeholder-grey);
+  margin-right: 0.8rem;
+  display: inline-block;
+}
+.platform-modal__friend-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.platform-modal__select-friend-img {
+  width: 100%;
+}
+.platform-modal__select-friend-info {
+  display: flex;
+  align-items: center;
+}
+.platform-modal__select-friends-item:hover {
+  background-color: var(--light-grey-bg);
+}
+.platform-modal__friend-action {
+  width: 1.2rem;
+  height: 1.2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.platform-modal__friend-action--invite {
+  background-image: url(../svg/invite-friend-plus.svg);
+}
+.platform-modal__friend-action--added {
+  background-image: url(../svg/platform-modal-friend-added.svg);
+}
+.platform-modal__select-friends-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+}
+.platform-modal__input--friends {
+  color: var(--dark-blue);
+}
+.platform-modal__select-header {
+  border-bottom: 1px solid var(--border-color);
+  padding: 1rem 1.5rem;
+  font-weight: 500;
+  background-color: #fff;
+}
+.input__length-limit {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 0.5rem;
+  color: var(--placeholder-grey);
+}
+.input__length-limit2 {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 0.5rem;
+  color: var(--placeholder-grey);
+}
+.modal-header__close-btn--event2 {
+  left: calc(100%);
+}
+.modal-header__close-btn--event {
+  left: calc(100% + 24rem);
+}
+
+.modal-body2::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.modal-body2::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.modal-body2::-webkit-scrollbar-thumb {
+  background: var(--text-color-2);
+  border-radius: 10px;
+}
+.modal-body-assistant::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.modal-body-assistant::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.modal-body-assistant::-webkit-scrollbar-thumb {
+  background: var(--text-color-2);
+  border-radius: 10px;
+}
+.modal-body2 {
+  overflow-y: scroll;
+}

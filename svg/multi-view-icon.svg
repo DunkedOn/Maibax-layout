@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2847 -898 18 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_283" data-name="Group 283" transform="translate(2847 -898)">
+    <path id="Path_1801" data-name="Path 1801" class="cls-1" d="M0,8V0H8V8ZM6,2H2V6H6Z"/>
+    <path id="Path_1802" data-name="Path 1802" class="cls-1" d="M0,18V10H8v8Zm6-6H2v4H6Z"/>
+    <path id="Path_1803" data-name="Path 1803" class="cls-1" d="M10,8V0h8V8Zm6-6H12V6h4Z"/>
+    <path id="Path_1804" data-name="Path 1804" class="cls-1" d="M10,18V10h4v2H12v4h4V14h2v4Z"/>
+    <path id="Path_1805" data-name="Path 1805" class="cls-1" d="M18,10H16v2h2Z"/>
+  </g>
+</svg>

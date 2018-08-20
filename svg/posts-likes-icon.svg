@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1213.208 2149.799 27 27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #9a9fbf;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #9a9fbf;
+      }
+    </style>
+  </defs>
+  <g id="лайк" transform="translate(1214.209 2150.799)">
+    <path id="Path_174" data-name="Path 174" class="cls-1" d="M48.1,535.77s1.226-1.467,1.248-1.491a8.717,8.717,0,0,0,0-11.441,6.364,6.364,0,0,0-4.926-2.347c-1.843,0-3.9,1.63-5.434,3.361-1.584-1.731-3.576-3.353-5.483-3.353h0a6.244,6.244,0,0,0-4.878,2.137,8.715,8.715,0,0,0,0,11.439c.814.9,8.72,10.666,8.72,10.666a2.148,2.148,0,0,0,3.261,0l1.666-2" transform="translate(-26.488 -520.492)"/>
+    <path id="Path_175" data-name="Path 175" class="cls-2" d="M39.5,532.5H42v2.777H39.5Z" transform="translate(-23.235 -515.828)"/>
+  </g>
+</svg>

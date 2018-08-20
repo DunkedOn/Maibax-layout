@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1729.576 2151.089 25.879 28.762">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #9a9fbf;
+        stroke-width: 2px;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #9a9fbf;
+      }
+    </style>
+  </defs>
+  <g id="коментить" transform="translate(1730.576 2152.089)">
+    <path id="Path_181" data-name="Path 181" class="cls-1" d="M467.207,539.444V524.062H447.67v12.819h1.085v2.564H447.67a2.393,2.393,0,0,1-2.171-2.564V524.062a2.392,2.392,0,0,1,2.171-2.564h19.538a2.391,2.391,0,0,1,2.171,2.564v12.819A2.392,2.392,0,0,1,467.207,539.444Zm-6.513,0H459.61v-2.564h1.085Z" transform="translate(-445.499 -521.498)"/>
+    <path id="Path_182" data-name="Path 182" class="cls-1" d="M467.207,539.444H458.06l-9.3,7.691v-7.691H447.67a2.393,2.393,0,0,1-2.171-2.564V524.062a2.392,2.392,0,0,1,2.171-2.564h19.538a2.391,2.391,0,0,1,2.171,2.564v12.819A2.392,2.392,0,0,1,467.207,539.444Z" transform="translate(-445.499 -521.498)"/>
+    <path id="Path_183" data-name="Path 183" class="cls-2" d="M461.5,533.5h2.171v2.564H461.5Z" transform="translate(-444.132 -518.115)"/>
+    <path id="Path_184" data-name="Path 184" class="cls-2" d="M449.5,525.5h14.11v2.564H449.5Z" transform="translate(-445.157 -520.37)"/>
+    <path id="Path_185" data-name="Path 185" class="cls-2" d="M449.5,529.5h8.683v2.564H449.5Z" transform="translate(-445.157 -519.243)"/>
+  </g>
+</svg>

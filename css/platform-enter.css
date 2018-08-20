@@ -1,0 +1,96 @@
+.PlatformEnter {
+  width: 100%;
+  height: calc(100vh - 8rem);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.PlatformEnter-Content {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}
+
+.PlatformEnter-Userpic {
+  width: 20rem;
+  height: 20rem;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.PlatformEnter-UserpicImg {
+  width: 100%;
+}
+
+.PlatformEnter-Greetings {
+  font-size: 4.3rem;
+  margin-bottom: 2.5rem;
+  color: var(--text-color);
+}
+
+.PlatformEnter-Button {
+  border: 1px solid var(--text-color);
+  width: 100%;
+  margin-bottom: 2.3rem;
+  background: transparent;
+  padding: 1rem 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.PlatformEnter-Button2 {
+  border: 1px solid var(--text-color);
+  width: 100%;
+  margin-bottom: 2.3rem;
+  background: transparent;
+  padding: 1rem 0;
+  cursor: pointer;
+  border-radius: 3px;
+  position: relative; 
+  right: 485px;
+  width: 200px;
+}
+.timepicker {
+  width: 156px;
+   height: 30px; 
+   font-size: 16px;
+    text-align: right;
+}
+.span-time {
+  position: relative;
+   left: 15px;
+    top: 7px
+}
+.date {
+  width: 156px;
+   height: 30px;
+    font-size: 14px;
+     text-align: center
+}
+.span-descr {
+  position: relative;
+   bottom: 25px;
+    z-index: 1
+}
+.input__length-limit2 {
+bottom: 40px;
+}
+.modal-button3 {
+  font-size: 10px;
+   position: relative;
+    top: 10px;
+}
+#file-upload span {
+  position: relative;
+  bottom: 7px;
+}
+.modal-title2 {
+  font-size: 18px
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3068.677 -958 25 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9a9fbf;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Logout_Icon" data-name="Logout Icon" transform="translate(3068.677 -958)">
+    <g id="Group_261" data-name="Group 261" transform="translate(0 0)">
+      <path id="Path_1756" data-name="Path 1756" class="cls-1" d="M15.625,2.223a7.267,7.267,0,0,1,6.58,4.444h2.249A9.431,9.431,0,0,0,15.625,0a9.432,9.432,0,0,0-8.83,6.667h2.25A7.268,7.268,0,0,1,15.625,2.223Zm0,15.556a7.267,7.267,0,0,1-6.58-4.444H6.795A9.432,9.432,0,0,0,15.625,20a9.433,9.433,0,0,0,8.83-6.666H22.206A7.27,7.27,0,0,1,15.625,17.779Zm-2.083-6.668V8.889H3.988L5.893,6.858,4.42,5.287,0,10l4.42,4.714,1.473-1.571L3.988,11.111ZM22.917,8.89v2.222H25V8.89Z" transform="translate(0 0)"/>
+    </g>
+  </g>
+</svg>

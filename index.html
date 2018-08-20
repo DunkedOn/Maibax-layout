@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maibax</title>
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="container navigation">
+            <a class="nav-logo" href="">
+                <figure class="nav-logo__item">
+                    <img class="nav-logo__img" src="imgs/logo.png" alt="">
+                    <figcaption class="nav-logo__text">
+                        Maibax
+                    </figcaption>
+                </figure>
+            </a>
+            <div class="nav-items">
+                <a href="#" class="nav-item">For Investors</a>
+                <a href="#" class="nav-item">Contact</a>
+                <span href="#" class="nav-item nav-item_type_login">Log In
+                    <div class="login-form-wrapper">
+                        <div class="login-form">
+                            <span class="login-form__header">
+                                Log in
+                            </span>
+                            <form class="login-form__form" action="">
+                                <div class="login-form__group">
+                                    <label class="login-form__input-label" for="">User name / Email address</label>
+                                    <input class="login-form__input login-form__input_type_username" type="text" placeholder="Your username">
+                                </div>
+                                <div class="login-form__group">
+                                    <label class="login-form__input-label" for="">Password</label>
+                                    <input class="login-form__input login-form__input_type_pass" placeholder="Password" type="password">
+                                </div>
+                                <button class="login-form__button">
+                                    Log in
+                                </button>
+                                <a href="#" class="login-form__link">Forget Password?</a>
+                                <span class="login-form__social-label">or</span>
+                                <div class="login-form__social-links">
+                                    <a href="" class="login-form__social-link">
+                                        <svg class="login-form__social-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                            id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;"
+                                            xml:space="preserve" width="512px" height="512px">
+                                            <g>
+                                                <g>
+                                                    <path d="M288,176v-64c0-17.664,14.336-32,32-32h32V0h-64c-53.024,0-96,42.976-96,96v80h-64v80h64v256h96V256h64l32-80H288z"
+                                                        fill="#3f7ebd" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                    <a href="" class="login-form__social-link">
+                                        <svg class="login-form__social-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                                            id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 96.828 96.827"
+                                            style="enable-background:new 0 0 96.828 96.827;" xml:space="preserve">
+                                            <g>
+                                                <g>
+                                                    <path d="M62.617,0H39.525c-10.29,0-17.413,2.256-23.824,7.552c-5.042,4.35-8.051,10.672-8.051,16.912    c0,9.614,7.33,19.831,20.913,19.831c1.306,0,2.752-0.134,4.028-0.253l-0.188,0.457c-0.546,1.308-1.063,2.542-1.063,4.468    c0,3.75,1.809,6.063,3.558,8.298l0.22,0.283l-0.391,0.027c-5.609,0.384-16.049,1.1-23.675,5.787    c-9.007,5.355-9.707,13.145-9.707,15.404c0,8.988,8.376,18.06,27.09,18.06c21.76,0,33.146-12.005,33.146-23.863    c0.002-8.771-5.141-13.101-10.6-17.698l-4.605-3.582c-1.423-1.179-3.195-2.646-3.195-5.364c0-2.672,1.772-4.436,3.336-5.992    l0.163-0.165c4.973-3.917,10.609-8.358,10.609-17.964c0-9.658-6.035-14.649-8.937-17.048h7.663c0.094,0,0.188-0.026,0.266-0.077    l6.601-4.15c0.188-0.119,0.276-0.348,0.214-0.562C63.037,0.147,62.839,0,62.617,0z M34.614,91.535    c-13.264,0-22.176-6.195-22.176-15.416c0-6.021,3.645-10.396,10.824-12.997c5.749-1.935,13.17-2.031,13.244-2.031    c1.257,0,1.889,0,2.893,0.126c9.281,6.605,13.743,10.073,13.743,16.678C53.141,86.309,46.041,91.535,34.614,91.535z     M34.489,40.756c-11.132,0-15.752-14.633-15.752-22.468c0-3.984,0.906-7.042,2.77-9.351c2.023-2.531,5.487-4.166,8.825-4.166    c10.221,0,15.873,13.738,15.873,23.233c0,1.498,0,6.055-3.148,9.22C40.94,39.337,37.497,40.756,34.489,40.756z"
+                                                        fill="#e64d3e" />
+                                                    <path d="M94.982,45.223H82.814V33.098c0-0.276-0.225-0.5-0.5-0.5H77.08c-0.276,0-0.5,0.224-0.5,0.5v12.125H64.473    c-0.276,0-0.5,0.224-0.5,0.5v5.304c0,0.275,0.224,0.5,0.5,0.5H76.58V63.73c0,0.275,0.224,0.5,0.5,0.5h5.234    c0.275,0,0.5-0.225,0.5-0.5V51.525h12.168c0.276,0,0.5-0.223,0.5-0.5v-5.302C95.482,45.446,95.259,45.223,94.982,45.223z"
+                                                        fill="#e64d3e" />
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </span>
+                <a href="#" class="nav-item" data-toggle="modal" data-target="#registrationModal">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+    <section class="welcome">
+        <h1 class="welcome__header">Maibax</h1>
+        <p class="welcome__text"> is a free social educational network where you can learn and teach</p>
+        <button class="welcome__button" data-toggle="modal" data-target="#registrationModal">Start now</button>
+    </section>
+    <section class="action-buttons">
+        <a href="#" class="action-button" data-toggle="modal" data-target="#registrationModal">I Want To Learn</a>
+        <a href="#" class="action-button action-button_color_light-blue" data-toggle="modal" data-target="#registrationModal">I Want to Teach</a>
+    </section>
+    <section class="possibilities container">
+        <div class="possibilities-video hidden-xs">
+            <iframe class="youtube" width="630" height="420" src="https://www.youtube.com/embed/z2JgN6Ae-Bo" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+        </div>
+        <iframe class="youtube-mobile" src="https://www.youtube.com/embed/z2JgN6Ae-Bo" frameborder="0" allow="autoplay; encrypted-media"
+            allowfullscreen></iframe>
+        <div class="possibilities-text">
+            <h2 class="possibilities-header">
+                With Maibax you can
+            </h2>
+            <p class="possibilities-p">
+                Feel the advantages of interactive online education. Meet the best teachers from al over the world.
+                <br> Learn anywhere anytime, all you need is the Internet connection
+            </p>
+            <div class="possibilities-item">
+                <img class="possibilities-item__img" src="imgs/learn_anything.png" alt="Learn anything">
+                <span class="possibilities-item__text">Learn Anything</span>
+            </div>
+            <div class="possibilities-item">
+                <img class="possibilities-item__img" src="imgs/talk_to_instructor.png" alt="Use free video conferencing">
+                <span class="possibilities-item__text">Use free video conferencing</span>
+            </div>
+            <div class="possibilities-item">
+                <img class="possibilities-item__img" src="imgs/speak_others.png" alt="">
+                <span class="possibilities-item__text">Track your progress</span>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <h2 class="section-header">Features</h2>
+        <div class="container flex-container features-container">
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/video-conf.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Video Conferencing</h3>
+                <p class="features-item__text">Communicate with your teacher, co-learners and friends via our free video conferencing platform.</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/track-process.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Track Your Progress</h3>
+                <p class="features-item__text">Set goals, track your progress and get the full learning analytics to&nbsp;be&nbsp;sure you are on&nbsp;the
+                    right track</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/interactive-education.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Interactive Education</h3>
+                <p class="features-item__text">With our platform you can feel as&nbsp;if&nbsp;you are in&nbsp;a&nbsp;real class. Talk to&nbsp;other students,
+                    see each other and be&nbsp;active during the lesson.</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/invite-friends.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Invite Your Friends</h3>
+                <p class="features-item__text">Invite your friends to&nbsp;a&nbsp;class and study together. You can discuss, make a&nbsp;project or&nbsp;just
+                    chat using our video conferencing anytime</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/free-backboard.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Free Virtual Blackboard</h3>
+                <p class="features-item__text">You can use our Free Virtual Blackboard, all necessary tools to&nbsp;make your lesson or&nbsp;video conference
+                    as&nbsp;much realistic as&nbsp;possible</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/group-study.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Group Study</h3>
+                <p class="features-item__text">You can chose whether you want to&nbsp;take 1-to-1 lessons or&nbsp;study in&nbsp;a&nbsp;group and pay less.</p>
+            </div>
+        </div>
+    </section>
+    <section class="courses">
+        <h2 class="section-header">
+            Courses
+        </h2>
+        <div class="courses-wrapper container">
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/fashion.jpg" alt="Fashion" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Fashion</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Become a shopper or a stylist with our special course</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/languages.png" alt="" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Languages</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Chose a language you want to learn and practice</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/photography.png" alt="" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Photography</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Learn or upgrade your skills in photography</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/digital-marketing.jpg" alt="Digital Marketing" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Digital Marketing</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Promote your brand, product or service</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/fitness.jpg" alt="" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Fitness</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Learn how to lose weight and build a perfect body with the best trainers</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/culinary.jpg" alt="" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Culinary</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Recipes from around tjhe world. Become a chef in your own kitchen</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/diy.jpg" alt="" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">DIY and Crafts</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Make and repair things yourself ans earn money</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/beauty.jpg" alt="" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Beauty</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Spend too much money on MUA? Learn how to o make-up</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/science.jpg" alt="" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Science</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Find out about the natural world.</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+            <div class="courses-item">
+                <div class="courses-item__img-wrapper">
+                    <img src="imgs/courses/business.jpg" alt="" class="courses-item__img">
+                </div>
+                <h3 class="courses-item__header">Business</h3>
+                <div class="courses-item__text-wrapper">
+                    <span class="courses-item__text">Learn how to run your own business. Best insights form the most successful businessmen</span>
+                </div>
+                <button class="welcome__button courses-item__button" data-toggle="modal" data-target="#registrationModal">Join now</button>
+            </div>
+        </div>
+        <a href="#" class="view-all-button">
+            View All
+        </a>
+    </section>
+    <section class="features why">
+        <h2 class="section-header">Why Teach On Maibax</h2>
+        <div class="container flex-container features-container">
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/starting-capital.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">No Starting Capital</h3>
+                <p class="features-item__text">You don’t need to buy or to pay for anything on Maibax. You can start making money right now.</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/own-platform.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Own Platform</h3>
+                <p class="features-item__text">You dont need to download or install anything. Just enter our Platform and start teaching</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/no-comission.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">No Comission</h3>
+                <p class="features-item__text">We don’t take any commision. You get the whole amount of money that you earn</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/find-students.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Find More Students</h3>
+                <p class="features-item__text">You don’t need to know SEO, promote yourself or spend money on ads, Maibax will help you to find students</p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/video-conf.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Video Conferencingd</h3>
+                <p class="features-item__text">With Maibax you can teach to large groups of people,you can see your students and talk to them </p>
+            </div>
+            <div class="features-item">
+                <div class="features-item__icon-wrapper">
+                    <img src="imgs/make-money.png" alt="Video Conferencing" class="features-item__icon">
+                </div>
+                <h3 class="features-item__header">Make More Money</h3>
+                <p class="features-item__text">You can give lessons to groups of people and earn more money than you could get for individual classes</p>
+            </div>
+        </div>
+        <button class="welcome__button" data-toggle="modal" data-target="#registrationModal">Start now</button>
+    </section>
+    <section class="courses mybax-is">
+        <h2 class="section-header">Maibax Is</h2>
+        <div class="why-items container flex-container">
+            <div class="why-item" data-toggle="modal" data-target="#registrationModal">
+                <div class="why-item__img-wrapper">
+                    <img src="imgs/unity.jpg" class="why-item__img" alt="">
+                </div>
+                <h3 class="why-item__header">Unity</h3>
+                <p class="why-item__text">Maibax unites students and learners for better education that everyone can afford</p>
+            </div>
+            <div class="why-item" data-toggle="modal" data-target="#registrationModal">
+                <div class="why-item__img-wrapper">
+                    <img src="imgs/why-2.jpg" class="why-item__img" alt="">
+                </div>
+                <h3 class="why-item__header">Freedom</h3>
+                <p class="why-item__text">Maibax gives freedom of choice and possibility to run your business</p>
+            </div>
+            <div class="why-item" data-toggle="modal" data-target="#registrationModal">
+                <div class="why-item__img-wrapper">
+                    <img src="imgs/why-3.jpg" class="why-item__img" alt="">
+                </div>
+                <h3 class="why-item__header">Opportunity</h3>
+                <p class="why-item__text">Maibax creates opportunities for everyone who possesses expertise to make money</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container flex-container footer-container">
+            <div class="footer-logo">
+                <img src="imgs/copyright.png" alt="">
+                <div class="footer-logo__text">
+                    <span class="footer-logo__maibax">
+                        Maibax 2018
+                    </span>
+                    <span class="footer-logo__copyright">
+                        All rights reserved.
+                    </span>
+                </div>
+            </div>
+            <div class="nav-items">
+                <a href="#" class="footer__nav-item nav-item">Student Terms of Service</a>
+                <a href="#" class="footer__nav-item nav-item">Teacher Terms of Service</a>
+                <a href="#" class="footer__nav-item nav-item">Privacy Policy</a>
+                <a href="#" class="footer__nav-item nav-item">For Investors</a>
+                <a href="#" class="footer__nav-item nav-item">Contact</a>
+            </div>
+        </div>
+    </footer>
+    <!--Registration Modal -->
+    <div id="registrationModal" class="modal fade" role="dialog">
+        <div class="modal-dialog registration-modal">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="registration-modal__header modal-header">
+                    <h4 class="registration-modal__title">Sign up</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body registration-modal__body">
+                    <form class="login-form__form" action="">
+                        <div class="login-form__group">
+                            <label class="login-form__input-label" for="">User name</label>
+                            <input class="login-form__input login-form__input_type_username" type="text" placeholder="Your Username" required>
+                        </div>
+                        <div class="login-form__group">
+                            <label class="login-form__input-label" for="">Email</label>
+                            <input class="login-form__input login-form__input_type_email" placeholder="Email" type="email" required>
+                        </div>
+                        <div class="registration-modal__name-input">
+                            <div class="login-form__group">
+                                <label class="login-form__input-label" for="">First Name</label>
+                                <input class="login-form__input login-form__input_type_username" type="text" placeholder="Your name" required>
+                            </div>
+                            <div class="login-form__group">
+                                <label class="login-form__input-label" for="">Last Name</label>
+                                <input class="login-form__input" placeholder="Your Last Name" type="email" required>
+                            </div>
+                        </div>
+                        <div class="login-form__group">
+                            <label class="login-form__input-label" for="">Password</label>
+                            <input class="login-form__input login-form__input_type_pass" placeholder="Password" type="password">
+                        </div>
+                        <div class="login-form__group registration-modal__name-input">
+                            <div class="registration-modal__radio-wrapper">
+                                <input id="student" name="account" type="radio" value="student" checked>
+                                <label for="student" class="registration-modal__input-label">Student</label>
+                            </div>
+                            <div class="registration-modal__radio-wrapper">
+                                <input id="teacher" name="account" type="radio" value="teacher">
+                                <label for="teacher" class="registration-modal__input-label">Teacher</label>
+                            </div>
+                        </div>
+                        <button class="login-form__button registration-modal__button">
+                            Sign up
+                        </button>
+                        <span class="sign-in-text">Have an Account?
+                            <a data-dismiss="modal" href="#">Log In</a>
+                        </span>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

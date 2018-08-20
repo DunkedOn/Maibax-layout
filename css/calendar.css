@@ -1,0 +1,362 @@
+.Calendar-Wrapper {
+  padding: 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Section-Header {
+  width: 100%;
+  padding: 1.5rem 2rem;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.Day-Detail {
+  background-color: #3f4257;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  border-radius: 3px 3px 0 0;
+}
+.Day-Num {
+  font-size: 7.5rem;
+}
+.Day-Weekday {
+  font-size: 3.5rem;
+}
+.Day-MounthYear {
+  font-size: 2.5rem;
+  color: #9a9fbf;
+}
+.Day-Events {
+  padding: 0 1.5rem;
+  background-color: #fff;
+  border-radius: 0 0 3px 3px;
+}
+.Day-Event {
+  padding: 2rem 0 2rem 1rem;
+  position: relative;
+}
+.Day-Event::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  border-left: 1px solid var(--border-color);
+  height: 2.5rem;
+}
+.Day-Event::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 2.5rem;
+  border-left: 1px solid var(--border-color);
+  height: calc(100% - 2.5rem);
+}
+.Day-Event:last-child:after {
+  display: none;
+}
+.Day-EventTime {
+  display: block;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #3f4257;
+  margin-bottom: 0.7rem;
+  position: relative;
+}
+.Day-EventTime::before {
+  position: absolute;
+  content: "";
+  width: 0.7rem;
+  height: 0.7rem;
+  border: 2px solid #6da2fe;
+  border-radius: 50%;
+  left: -1.5rem;
+  top: 0.1rem;
+  background-color: #fff;
+  z-index: 10;
+}
+.Day-EventName {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+.Day-EventDescription {
+  display: block;
+  color: #888da8;
+  margin-bottom: 0.7rem;
+}
+.Day-EventTeacher {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+.Day-EventAssistants {
+  display: flex;
+  font-weight: 400;
+  align-items: center;
+}
+.picture-post__footer-users-liked.Day-EventAssistants {
+  padding-left: 0.7rem;
+}
+.Day-Actions {
+  width: 100%;
+  padding: 0 1.5rem 1.5rem;
+}
+.Day-Btn {
+  width: 100%;
+  background-color: #38a9ff;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+}
+.Day-Btn:hover {
+  filter: brightness(1.1);
+}
+.Day-Btn:active {
+  filter: brightness(0.9);
+}
+.Calendar {
+  margin-bottom: 0;
+}
+.CalendarControl {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-color: transparent;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  will-change: box-shadow;
+  transition: all 0.3s;
+}
+.CalendarControl:hover {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+.CalendarHeader {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+}
+.CalendarMounth {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.CalendarControl_Prev {
+  background-image: url(../svg/calendar-prev.svg);
+}
+.CalendarControl_Next {
+  background-image: url(../svg/calendar-next.svg);
+}
+.CalendarWeekdays {
+  display: flex;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-color);
+}
+.CalendarWeekday {
+  width: 14.2%;
+  text-align: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.CalendarWeek {
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+}
+.CalendarDay {
+  width: 14.2%;
+  height: 8rem;
+  position: relative;
+  border-right: 1px solid var(--border-color);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.CalendarDay:last-child {
+  border-right: none;
+}
+.CalendarDay-Date {
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.CalendarDay-Date_Marked {
+  background-color: #08ddc1;
+  color: #fff;
+}
+.CalendarDay-Events {
+  padding: 4rem 0 0 0;
+}
+.CalendarDay-Event {
+  padding-left: 1.5rem;
+  display: block;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+.CalendarDay-Event:before {
+  content: "";
+  border-radius: 50%;
+  width: 0.8rem;
+  height: 0.8rem;
+  position: absolute;
+  background-color: #6da2fe;
+  left: 0.4rem;
+  top: 0.2rem;
+}
+.CalendarDay-Event_Red::before {
+  background-color: #ff5e3a;
+}
+.CalendarDay-Event_Grey::before {
+  background-color: #9a9fbf;
+}
+.CalendarDay_Selected {
+  background-color: #e6ecf5;
+}
+.DayDescription-Header {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #9a9fbf;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-bottom: 1px solid var(--border-color);
+}
+.DayDescription {
+  border-radius: 0 0 3px 3px;
+}
+.EventModal-Header {
+  padding: 2.5rem;
+  position: relative;
+}
+.EventModal-HeaderIcon {
+  height: 4rem;
+  width: 4rem;
+  background-color: #6da2fe;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 1.3rem;
+}
+.EventModal-HeaderCloseBtn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  right: -2.7rem;
+  top: -2.2rem;
+  display: block;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.EventModal-HeaderContent {
+  display: flex;
+  align-items: center;
+}
+.EventModal-HeaderEvent {
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.EventModal-HeaderTime {
+  color: #888da8;
+  font-size: 1.2rem;
+}
+.EventModal-EventImg {
+  width: 100%;
+}
+.EventModal-Description {
+  padding: 2.5rem;
+  display: flex;
+}
+.EventModal-DescriptionLeft {
+  width: 65%;
+  border-right: 1px solid var(--border-color);
+}
+.EventModal-DescriptionRight {
+  width: 35%;
+}
+.EventModal-DescriptionSide {
+  padding: 0.5rem 1rem;
+}
+.modal.EventModal {
+  max-width: 77rem;
+}
+.EventModal-EventPreview {
+  display: inline-flex;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+.EventModal-EventPreview img {
+  width: 100%;
+}
+.EventModal-EventHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.EventModal-EventName {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.EventModal-EventDescription {
+  font-size: 1.4rem;
+}
+.EventModal-EventDate {
+  padding-left: 3rem;
+  background-image: url(../svg/event-modal-date.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0.6rem;
+  padding: 1rem 2rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.EventModal-Btn {
+  width: 100%;
+  background-color: #6da2fe;
+  color: #fff;
+  border-radius: 3px;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+.EventModal-Btn_Cancel {
+  background-color: #ff5e3a;
+}
+.EventModal-Assistants {
+  margin-bottom: 2rem;
+}
+.EventModal-Btn:hover {
+  filter: brightness(1.1);
+}
+.EventModal-Btn:active {
+  filter: brightness(0.9);
+}

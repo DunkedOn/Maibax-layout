@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1736.814 264.342 9.337 8.556">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_242" data-name="Group 242" transform="translate(1705.048 262.009)">
+    <path id="Path_813" data-name="Path 813" class="cls-1" d="M368.551,112.091v-.821a3.111,3.111,0,1,0-2.333,0v.823a3.889,3.889,0,1,1,2.333,0Zm-.778-.62v.779a3.843,3.843,0,0,1-.392.02c-.13,0-.259-.007-.386-.019v-.78a2.831,2.831,0,0,0,.778,0Z" transform="translate(-331.727 -101.388)"/>
+    <path id="Path_817" data-name="Path 817" class="cls-1" d="M372.5,122.5h.778v.778H372.5Z" transform="translate(-337.232 -112.389)"/>
+    <path id="Path_814" data-name="Path 814" class="cls-1" d="M368.5,112.5h.778v.778H368.5Z" transform="translate(-334.787 -106.277)"/>
+    <path id="Path_815" data-name="Path 815" class="cls-1" d="M376.5,112.5h.778v.778H376.5Z" transform="translate(-339.676 -106.277)"/>
+    <path id="Path_816" data-name="Path 816" class="cls-1" d="M372.821,116.5v.039c0,.407-.522.737-1.165.737s-1.165-.33-1.165-.737V116.5Z" transform="translate(-336.004 -108.723)"/>
+    <path id="Path_818" data-name="Path 818" class="cls-1" d="M383.056,103.277H381.5V102.5h2.333v.777Z" transform="translate(-342.732 -100.167)"/>
+  </g>
+</svg>

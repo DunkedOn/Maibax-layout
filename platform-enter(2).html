@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Platform</title>
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/profile.css">
+    <link rel="stylesheet" type="text/css" href="css/profile-modals.css">
+    <link rel="stylesheet" type="text/css" href="css/platform-modal.css">
+    <link rel="stylesheet" type="text/css" href="css/platform-enter.css">
+    <link rel="stylesheet" type="text/css" href="css/all-events.css">
+    <link rel="stylesheet" href="https://unpkg.com/flatpickr/dist/flatpickr.min.css">
+    <script src="https://unpkg.com/flatpickr"></script>
+    
+</head>
+
+<body id="body" class="body">
+    <div class="profile-nav">
+        <div class="container profile-nav__container">
+            <div class="nav-logo">
+                <a class="nav-logo__link" href="/">Maibax</a>
+            </div>
+            <div class="nav-search">
+                <input class="nav-search__input" placeholder="Search Teachers" type="text" />
+            </div>
+            <div class="nav-links">
+                <a class="nav-link" href="/">News
+                    <span class="nav-link__counter">5</span>
+                </a>
+                <span class="nav-link nav-link__invintations" href="/">Friends
+                    <span class="nav-link__counter">5</span>
+                    <div class="navigation-dropdown navigation-dropdown--friends fade-in">
+                        <h5 class="nav-user__dropdown-item nav-user__dropdown-header navigation-dropdown__header">Friends</h5>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker</span>
+                                    <span class="navigation-dropdown__item-time">Mutual Friend: Sarah Hetfield</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__firend-accept"></button>
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__firend-decline"></button>
+                            </div>
+                            <button class="navigation-dropdown__close-btn"></button>
+                        </div>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker</span>
+                                    <span class="navigation-dropdown__item-time">Mutual Friend: Sarah Hetfield</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__firend-accept"></button>
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__firend-decline"></button>
+                            </div>
+                            <button class="navigation-dropdown__close-btn"></button>
+                        </div>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker</span>
+                                    <span class="navigation-dropdown__item-time">Mutual Friend: Sarah Hetfield</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__firend-accept"></button>
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__firend-decline"></button>
+                            </div>
+                            <button class="navigation-dropdown__close-btn"></button>
+                        </div>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-time">You and Mary Jane Stark just became friends. Write on her wall.</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__friend-accepted"></button>
+                            </div>
+                            <button class="navigation-dropdown__close-btn"></button>
+                        </div>
+
+                        <div class="navigation-dropdown__item navigation-dropdown__view-all">
+                            View All Requests
+                        </div>
+                    </div>
+                </span>
+                <span class="nav-link nav-link__invintations">Invitations
+                    <span class="nav-link__counter">5</span>
+                    <div class="navigation-dropdown navigation-dropdown__invintation fade-in">
+                        <h5 class="nav-user__dropdown-item nav-user__dropdown-header navigation-dropdown__header">INVITATIONS</h5>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker invites you lesson "English for Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Accusantium repudiandae iste recusandae dignissimos nostrum unde
+                                        incidunt, maxime, neque libero ipsum illo veritatis error molestiae saepe? Corporis
+                                        reprehenderit aliquid accusamus optio!</span>
+                                    <span class="navigation-dropdown__item-time">4 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn"></button>
+                            </div>
+                            <button class="navigation-dropdown__close-btn"></button>
+                        </div>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker invites you lesson "English for Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Accusantium repudiandae iste recusandae dignissimos nostrum unde
+                                        incidunt, maxime, neque libero ipsum illo veritatis error molestiae saepe? Corporis
+                                        reprehenderit aliquid accusamus optio!</span>
+                                    <span class="navigation-dropdown__item-time">4 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn"></button>
+                            </div>
+                            <button class="navigation-dropdown__close-btn"></button>
+                        </div>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker invites you lesson "English for Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Accusantium repudiandae iste recusandae dignissimos nostrum unde
+                                        incidunt, maxime, neque libero ipsum illo veritatis error molestiae saepe? Corporis
+                                        reprehenderit aliquid accusamus optio!</span>
+                                    <span class="navigation-dropdown__item-time">4 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn"></button>
+                            </div>
+                            <button class="navigation-dropdown__close-btn"></button>
+                        </div>
+                        <div class="navigation-dropdown__item navigation-dropdown__view-all">
+                            View All Requests
+                        </div>
+                    </div>
+                </span>
+                <div class="nav-link nav-link__messages" href="/">Messages
+                    <span class="nav-link__counter">5</span>
+                    <div class="navigation-dropdown navigation-dropdown__messages fade-in">
+                        <h5 class="nav-user__dropdown-item nav-user__dropdown-header navigation-dropdown__header">Messages</h5>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker</span>
+                                    <span class="navigation-dropdown__item-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, libero illo. Nisi
+                                        illum blanditiis quisquam temporibus quod similique hic praesentium asperiores recusandae
+                                        voluptas? Eaque qui voluptas alias, fugiat veritatis aspernatur!</span>
+                                    <span class="navigation-dropdown__item-time navigation-dropdown__item-message-time">4 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__message-btn"></button>
+                            </div>
+                        </div>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker</span>
+                                    <span class="navigation-dropdown__item-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, libero illo. Nisi
+                                        illum blanditiis quisquam temporibus quod similique hic praesentium asperiores recusandae
+                                        voluptas? Eaque qui voluptas alias, fugiat veritatis aspernatur!</span>
+                                    <span class="navigation-dropdown__item-time navigation-dropdown__item-message-time">4 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__message-btn"></button>
+                            </div>
+                        </div>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img">
+                                    <img src="http://www.fillmurray.com/30/30" alt="">
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">Mathilda Brinker</span>
+                                    <span class="navigation-dropdown__item-message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, libero illo. Nisi
+                                        illum blanditiis quisquam temporibus quod similique hic praesentium asperiores recusandae
+                                        voluptas? Eaque qui voluptas alias, fugiat veritatis aspernatur!</span>
+                                    <span class="navigation-dropdown__item-time navigation-dropdown__item-message-time">4 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__message-btn"></button>
+                            </div>
+                        </div>
+                        <div class="navigation-dropdown__item">
+                            <div class="navigation-dropdown__item-info">
+                                <div class="navigation-dropdown__item-img navigation-dropdown__multi-notify">
+                                    <div class="navigation-dropdown__multi-notify-item"></div>
+                                    <div class="navigation-dropdown__multi-notify-item"></div>
+                                    <div class="navigation-dropdown__multi-notify-item"></div>
+                                    <div class="navigation-dropdown__multi-notify-item">+4</div>
+                                </div>
+                                <div class="navigation-dropdown__item-description">
+                                    <span class="navigation-dropdown__item-name">You, Faye, Ed & Jet +3</span>
+                                    <span class="navigation-dropdown__item-message">Ed: Yeah! Seems fine by me!</span>
+                                    <span class="navigation-dropdown__item-time navigation-dropdown__item-message-time">March 16th at 10:23am</span>
+                                </div>
+                            </div>
+                            <div class="navigation-dropdown__action-buttons">
+                                <button class="navigation-dropdown__accept-btn navigation-dropdown__message-btn"></button>
+                            </div>
+                        </div>
+                        <div class="navigation-dropdown__item navigation-dropdown__view-all">
+                            View All Messages
+                        </div>
+                    </div>
+                </div>
+                <a class="nav-link" href="/">Shop
+                    <span class="nav-link__counter">5</span>
+                </a>
+            </div>
+            <div class="nav-user">
+                <img src="http://www.fillmurray.com/60/60" class="nav-user__img" />
+                <span class="nav-user__name">James Spieged</span>
+                <div class="nav-user__dropdown fade-in">
+                    <h5 class="nav-user__dropdown-item nav-user__dropdown-header">Your account</h5>
+                    <a href="#" class="nav-user__dropdown-item">Library</a>
+                    <a href="#" class="nav-user__dropdown-item nav-user__dropdown-item--help">Help</a>
+                    <a href="#" class="nav-user__dropdown-item nav-user__dropdown-item--settings">Profile Settings</a>
+                    <a href="#" class="nav-user__dropdown-item nav-user__dropdown-item--logout">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modalWrapper" class="modal-wrapper">
+        <div id="platformModal" class="modal platform-modal">
+            <div class="modal-header">
+                <h2 class="modal-header__text">Create an Event</h2>
+                <div class="modal-header__close-btn modal-header__close-btn--event"></div>
+            </div>
+            <div class="modal-body">
+                <div class="platform-modal__body" >
+                    <div class="platform-modal__friends-list">
+                        <input type="text" placeholder="Search Friends..." class="platform-modal__friends-search">
+                        <h3 class="platform-modal__select-header">
+                            Friends
+                        </h3>
+                        <div class="platform-modal__select-friends">
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="platform-modal__select-header">
+                            Search results
+                        </h3>
+                        <div class="platform-modal__select-friends">
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Green Goo Rock
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--invite"></button>
+                                </div>
+                            </div>
+                            <div class="platform-modal__select-friends-item">
+                                <div class="platform-modal__select-friend-info">
+                                    <div class="platform-modal__select-friend-upic">
+                                        <img class="platform-modal__select-friend-img" src="http://www.fillmurray.com/20/20" alt="">
+                                    </div>
+                                    <span class="platform-modal__friend-name">
+                                        Mathilda Brinker
+                                    </span>
+                                </div>
+                                <div class="platform-modal__select-friend-action">
+                                    <button class="platform-modal__friend-action platform-modal__friend-action--added"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="platform-modal__from-group">
+                        
+                        <label class="platform-modal__label" for="id1">Event Name</label>
+                        <input id="id1" type="text" class="platform-modal__input">
+                        <span class="input__length-limit">
+                            25/80
+                        </span>
+                    </div>
+                    <div class="events">
+                    <div class="platform-modal__from-group">
+                            <div class="platform-modal__from-group platform-modal__input--date">
+                        <input class="date" type="text" placeholder="Event Date">
+                        <script>flatpickr(".date", {});</script></div>
+                    </div>
+                    <div class="platform-modal__from-group-wrapper">
+                        <div class="platform-modal__from-group platform-modal__input--time">
+                            <label class="platform-modal__label" for="time"><span class="span-time"> Event Time:</span></label>
+                            <input class="timepicker" type="time" name="appt-time" placeholder="Event Time">
+                        </div>
+                    </div>
+                </div>
+                    <div class="platform-modal__from-group">
+                        <label class="platform-modal__label" for="descr" ><span class="span-descr">Event Description</span></label>
+                        <textarea id="descr" class="platform-modal__input platform-modal__input--description" name="" id="descr" cols="30" rows="10"
+                            maxlength="500" ></textarea>
+                        <span class="input__length-limit2">
+                            75/500
+                        </span>
+                    </div><br>
+                    <div class="modal__button4"><span>Add Thumbnail</span></div>
+                    <progress class="modal-progress" max="100" value="25">
+                            Загружено на <span id="value">25</span>%
+                          </progress>
+                         <button class="modal-btn-cancel">
+                             <span>Cancel</span>
+                         </button>                              
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modalWrapper2" class="modal-wrapper">
+        <div id="platformModal" class="modal platform-modal2">
+            <div class="modal-header2">
+                <h2 class="modal-header__text">Choose Event</h2>
+                <div class="modal-header__close-btn2 modal-header__close-btn--event2"></div>
+            </div>
+            <div class="modal-body2">
+                <div class="platform-modal__body2" >
+                        <div class="event1" >
+                                <img src="imgs/event1.jpg" width="100px" height="70px" alt="" class="modal-event-image">
+                                <span class="modal-event-creator">Migel Rodrigez</span> <br/>
+                               <span class="modal-event-descr">How we can change the worldzzzzzzz</span> <br/>
+                                <span class="modal-event-date">22.12.2018, 21:00</span> 
+                                   <button class="modal-btn-start">
+                                        <span>Start</span>
+                                    </button>                        
+                
+                    </div>
+                        <div class="event2">
+                            <img src="imgs/event2.jpg" width="100px" height="70px" alt="" class="modal-event-image">
+                            <span class="modal-event-creator">Migel Rodrigez</span> <br/>
+                           <span class="modal-event-descr">How we can change the worldzzzzzzz</span> <br/>
+                            <span class="modal-event-date">22.12.2018, 21:00</span> 
+                               <button class="modal-btn-start">
+                                    <span>Start</span>
+                                </button>                     
+                       
+    
+                    </div>
+                        <div class="event3">  
+                            <img src="imgs/event3.jpg" width="100px" height="70px" alt="" class="modal-event-image">
+                            <span class="modal-event-creator">Migel Rodrigez</span> <br/>
+                           <span class="modal-event-descr">How we can change the worldzzzzzzz</span> <br/>
+                            <span class="modal-event-date">22.12.2018, 21:00</span> 
+                               <button class="modal-btn-start">
+                                    <span>Start</span>
+                                </button>      
+                    </div>
+                    <div class="event4">  
+                        <img src="imgs/event4.jpg" width="100px" height="70px" alt="" class="modal-event-image">
+                        <span class="modal-event-creator">Migel Rodrigez</span> <br/>
+                       <span class="modal-event-descr">How we can change the worldzzzzzzz</span> <br/>
+                        <span class="modal-event-date">22.12.2018, 21:00</span> 
+                           <button class="modal-btn-start">
+                                <span>Start</span>
+                            </button>   
+                </div>
+
+                        <div class="event5"> 
+                            <img src="imgs/event5.jpg" width="100px" height="70px" alt="" class="modal-event-image">
+                            <span class="modal-event-creator">Migel Rodrigez</span> <br/>
+                           <span class="modal-event-descr">How we can change the worldzzzzzzz</span> <br/>
+                            <span class="modal-event-date">22.12.2018, 21:00</span> 
+                               <button class="modal-btn-start">
+                                    <span>Start</span>
+                                </button>        
+                    
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="PlatformEnter">
+        <div class="PlatformEnter-Content">
+            <div class="PlatformEnter-Userpic">
+                <img class="PlatformEnter-UserpicImg" src="http://www.fillmurray.com/200/200" alt="">
+            </div>
+            <h3 class="PlatformEnter-Greetings">
+                Hello, Username
+            </h3>
+
+                <button id="startMeeting" class="PlatformEnter-Button">Start Meeting</button>
+                <button id="createlesson" class="PlatformEnter-Button">Create lesson</button>
+                <button id="createEvent" class="PlatformEnter-Button">Create event</button>
+                </div>
+            </section>
+               <script>
+                const modalCloseBtns2 = Array.from(document.querySelectorAll('.modal-header__close-btn2'));
+                const startMeeting = document.querySelector('#startMeeting');
+                const closeModal2 = function () {
+                    const body2 = document.getElementById('body');
+                    const modalWrapper2 = document.getElementById('modalWrapper2');
+                    body2.classList.remove('no-overflow');
+                    modalWrapper2.classList.remove('display-flex');
+                }
+                const openModal2 = function () {
+                    const body2 = document.getElementById('body');
+                    const modalWrapper2 = document.getElementById('modalWrapper2');
+                    body2.classList.add('no-overflow');
+                    modalWrapper2.classList.add('display-flex');
+                }
+                startMeeting.addEventListener('click', () => openModal2());
+                modalCloseBtns2.forEach(button => button.addEventListener('click', () => {
+                    closeModal2();
+                }));
+            </script> 
+            <script>
+        const modalCloseBtns = Array.from(document.querySelectorAll('.modal-header__close-btn'));
+        const createEvent = document.querySelector('#createEvent');
+        const closeModal = function () {
+            const body = document.getElementById('body');
+            const modalWrapper = document.getElementById('modalWrapper');
+            body.classList.remove('no-overflow');
+            modalWrapper.classList.remove('display-flex');
+        }
+        const openModal = function () {
+            const body = document.getElementById('body');
+            const modalWrapper = document.getElementById('modalWrapper');
+            body.classList.add('no-overflow');
+            modalWrapper.classList.add('display-flex');
+        }
+        createEvent.addEventListener('click', () => openModal());
+        modalCloseBtns.forEach(button => button.addEventListener('click', () => {
+            closeModal();
+        }));
+    </script>
+</body>

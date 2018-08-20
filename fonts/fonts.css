@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Fifita';
+    src: url('FifitaLigatures.eot');
+    src: url('FifitaLigatures.eot?#iefix') format('embedded-opentype'), url('FifitaLigatures.woff2') format('woff2'), url('FifitaLigatures.woff') format('woff'), url('FifitaLigatures.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

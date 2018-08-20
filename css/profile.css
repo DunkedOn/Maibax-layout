@@ -2507,7 +2507,3 @@ filter: brightness(0.8)
 .modal-btn-cancel2-chat:hover {
   filter: brightness(1.2);
 }
-.message-icon {
-  position: relative;
-   right: 15px;
-}

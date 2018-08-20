@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="css/profile.css">
     <link rel="stylesheet" type="text/css" href="css/platform-modal.css">
     <link rel="stylesheet" type="text/css" href="css/profile-modals.css">
+    <link rel="stylesheet" type="text/css" href="css/all-events.css">
 </head>
 
 <body id="body" class="body no-overflow">
@@ -978,50 +979,8 @@
                                 <img src="svg/details-dots-icon.svg" alt="">
                             </div>
                             <div class="search-friends__write-message">
-                                    <div class="container">
-                
-                                            <a href="#openModal"> <img class="message-icon" src="svg/message-icon.svg"> </a>
-                                                    <div id="openModal" class="modal3">
-                                                        <div class="modal-dialog3">
-                                                            <div class="modal-content-creator">
-                                                                <div class="modal-header3">
-                                                                    <img class="modal-title-chat_photo" src="svg/photo.svg" alt="" width="45px" height="45px" >
-                                                                    <span class="modal-title-chat_name"><b> Mathilda Brinker</b></span><br/>
-                                                                    <span class="modal-title-chat_online"><b> Online</b></span>
-                                                                    <a href="#body" title="Close" class="close3"><img src="svg/Close-btn.svg" alt="" height="17" width="17"></a>
-                                                                </div>
-                                                                <div class="modal-body3">
-                                                                        <form action="#" method="post">
-                                                                                <p><textarea class="chat-textarea" rows="8" cols="51" name="text"></textarea></p>
-                                                                            <div class="lnk">
-                                                                                <img src="svg/ph.svg" alt="" width="15px" height="15px" style=>
-                                                                                <img src="svg/flm.svg" alt="" width="15px" height="15px" style="margin-left: 5px">
-                                                                                <img src="svg/mus.svg" alt="" width="15px" height="15px"style="margin-left: 5px">
-                                                                                <img src="svg/pst.svg" alt="" width="15px" height="15px"style="margin-left: 5px">
-                                                                            </div>
-                                                                            <button class="modal-btn-cancel2-chat">
-                                                                                    <span>Send</span>
-                                                                                </button>    
-                                                                        </form>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>    
-                                                <script>
-                                            document.addEventListener("DOMContentLoaded", function () {
-                                                var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
-                                                console.log(scrollbar);
-                                                document.querySelector('[href="#openModal"]').addEventListener('click', function () {
-                                                    document.body.style.overflow = 'hidden';
-                                                    document.querySelector('#openModal').style.marginLeft = scrollbar;
-                                                });
-                                                document.querySelector('[href="#body"]').addEventListener('click', function () {
-                                                    document.body.style.overflow = 'visible';
-                                                    document.querySelector('#openModal').style.marginLeft = '0px';
-                                                });
-                                            });
-                                        </script>
+                            <img class="message-icon" src="svg/message-icon.svg"> 
+
                             </div>
                             
                         </div>
@@ -1039,7 +998,7 @@
                                 <img src="svg/details-dots-icon.svg" alt="">
                             </div>
                             <div class="search-friends__write-message">
-                                    <a href="#openModal">  <img src="svg/message-icon.svg" alt=""></a>
+                              <img class="message-icon" src="svg/message-icon.svg" alt="">
                             </div>
                         </div>
                     </div>
@@ -1953,7 +1912,55 @@
         </div>
 
     </div>
-
+    <div id="modalWrapper3" class="modal-wrapper">
+            <div id="platformModal" class="modal-chat platform-modal3">
+                <div class="modal-header3">
+                    <img class="modal-title-chat_photo" src="svg/photo.svg" alt="" width="45px" height="45px" >
+                    <span class="modal-title-chat_name"><b> Mathilda Brinker</b></span><br/>
+                    <span class="modal-title-chat_online"><b> Online</b></span>
+                    <img class="close3" src="svg/Close-btn.svg" alt="" height="17" width="17"></a>
+                </div>
+                <div class="modal-body3">
+                    <div class="platform-modal__body3" >
+                        <form action="#" method="post">
+                            <p><textarea class="chat-textarea" rows="8" cols="51" name="text"></textarea></p>
+                        <div class="lnk">
+                            <img src="svg/ph.svg" alt="" width="15px" height="15px" >
+                            <img class="lnk-margin" src="svg/flm.svg" alt="" width="15px" height="15px">
+                            <img src="svg/mus.svg" alt="" width="15px" height="15px">
+                            <img src="svg/pst.svg" alt="" width="15px" height="15px">
+                        </div>
+                        <button class="modal-btn-cancel2-chat">
+                                <span>Send</span>
+                            </button>    
+                    </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+         <script> 
+            const modalCloseBtns3 = Array.from(document.querySelectorAll('.close3'));
+            const openModalBtns3 = Array.from(document.querySelectorAll('.message-icon'));
+            const closeModal3 = function () {
+                const body3 = document.getElementById('body');
+                const modalWrapper3 = document.getElementById('modalWrapper3');
+                body3.classList.remove('no-overflow');
+                modalWrapper3.classList.remove('display-flex');
+            }
+            const openModal3 = function () {
+                const body3 = document.getElementById('body');
+                const modalWrapper3 = document.getElementById('modalWrapper3');
+                body3.classList.add('no-overflow');
+                modalWrapper3.classList.add('display-flex');
+            }
+            modalCloseBtns3.forEach(button => button.addEventListener('click', () => {
+                closeModal3();
+            }));
+            openModalBtns3.forEach(button => button.addEventListener('click', () => {
+                openModal3();
+            }));
+        </script> 
     <script>        
         const modalCloseBtns = Array.from(document.querySelectorAll('.modal-header__close-btn'));
         const openModalBtns = Array.from(document.querySelectorAll('.profile-preview__action'));

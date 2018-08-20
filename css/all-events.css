@@ -60,7 +60,7 @@
 .modal-btn-cancel2-chat{
     float: right;
     position: relative;
-    right: 20px;
+    right: 170px;
     top: 2px;
     border: none;
     background-color: #6DA2FE;
@@ -90,6 +90,10 @@ position: relative;
 }
 .modal-body3 {
     background-color: #E6ECF5;
+}
+.modal-body-delete {
+    background-color: #fff;
+    width: 600px;
 }
 
 .li-no_event-menu {

@@ -28,6 +28,21 @@
   overflow: auto;
   
 }
+.modal-wrapper-delete {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(109, 162, 254, 0.65);
+  display: none;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 100;
+  padding: 10rem 0 0 0;
+  overflow: auto;
+  
+}
 .modal {
   background-color: #fff;
   height: 398px;
@@ -52,6 +67,17 @@
   bottom: 100px;
 }
 .modal-chat {
+  background-color: #fff;
+  height: 200px;
+  display: none;
+  width: 100%;
+  max-width: 52rem;
+  border-radius: 3px;
+  position: relative;
+  right: 100px;
+  bottom: 100px;
+}
+.modal-delete {
   background-color: #fff;
   height: 200px;
   display: none;
@@ -95,6 +121,16 @@
   border-bottom: 2px solid var(--border-color);
 }
 .modal-header3 {
+  border-radius: 3px 3px 0 0;
+  background-color: #6DA2FE;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  padding: 1.5rem;
+  position: relative;
+  border-bottom: 2px solid var(--border-color);
+}
+.modal-header-delete {
   border-radius: 3px 3px 0 0;
   background-color: #6DA2FE;
   color: #fff;
@@ -502,6 +538,9 @@ input, text {border: none}
 .modal-chat {
   display: block;
 }
+.modal-delete {
+  display: block;
+}
 .modal__text {
   font-size: 1.4rem;
   margin-bottom: 2.5rem;
@@ -723,6 +762,7 @@ input, text {border: none}
           float: right;
           text-decoration: none;
           
+          
       }
 
       /* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */
@@ -764,7 +804,11 @@ input, text {border: none}
           padding: 5px; 
           text-overflow: ellipsis; 
 }
-
+.delete-span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #515365;
+}
         /* свойства модального окна по умолчанию */
         .modal-delete {
           position: fixed; /* фиксированное положение */
@@ -801,37 +845,6 @@ input, text {border: none}
           }
       }
 
-      /* свойства для блока, содержащего контент модального окна */
-      .modal-content-delete {
-          position: relative;
-          display: -webkit-box;
-          display: -webkit-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-orient: vertical;
-          -webkit-box-direction: normal;
-          -webkit-flex-direction: column;
-          -ms-flex-direction: column;
-          flex-direction: column;
-          background-color: #fff;
-          -webkit-background-clip: padding-box;
-          background-clip: padding-box;
-          border: 1px solid rgba(0, 0, 0, .2);
-          border-radius: .3rem;
-          outline: 0;
-          top: 250px;
-          left: 25px;
-          width: 605px;
-          height: 212px;
-      }
-
-      @media (min-width: 768px) {
-          .modal-content-delete {
-              -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-              box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
-          }
-      }
-
       /* свойства для заголовка модального окна */
       .modal-header-delete {
           display: -webkit-box;
@@ -853,15 +866,9 @@ input, text {border: none}
           height: 60px;
           font-weight: bold;
           font-size: 20px;
+          width: 600px
       }
 
-      .modal-title-delete {
-          margin-top: 0;
-          margin-bottom: 0;
-          line-height: 1.5;
-          font-size: 1.25rem;
-          font-weight: 500;
-      }
 
       /* свойства для кнопки "Закрыть" */
       .close-delete {
@@ -879,16 +886,6 @@ input, text {border: none}
           opacity: .75;
       }
 
-      /* свойства для блока, содержащего основное содержимое окна */
-      .modal-body-delete {
-          position: relative;
-          -webkit-box-flex: 1;
-          -webkit-flex: 1 1 auto;
-          -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-          padding: 15px;
-          background-color: white;
-      }
       .modal-btn-delete{
         border: none;
         background-color: #FF5E3A;
@@ -917,7 +914,7 @@ input, text {border: none}
       .modal-body-delete-buttons {
         float: right;
         margin-right: 10px;
-        margin-top: 50px;
+        margin-top: 100px;
       }
 .modal-body-delete span {
   position: relative;

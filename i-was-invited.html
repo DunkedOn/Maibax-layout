@@ -346,63 +346,22 @@
         <div class="events-content-event">
                 <div class="event-creator">
                     <div class="event-border-creator">
-                        <a href="#contact-creator"><img class="creator-photo" src="svg/Mathilda.svg" alt="Mathilda" width="34px" height="34px"></a>
-                        <a href="#contact-creator"> <span class="creator-name">Mathilda Brinker </span></a>
+                        <img id="contact-creator" class="creator-photo" src="svg/Mathilda.svg" alt="Mathilda" width="34px" height="34px">
+                        <span class="creator-name">Mathilda Brinker </span></a>
                             </div>
                             <div class="event-border-creator">
-                                <a href="#contact-creator">     <img class="creator-photo"src="svg/Mathilda.svg" alt="Mathilda" width="34px" height="34px"></a>
-                                <a href="#contact-creator"> <span class="creator-name">Mathilda Brinker </span></a>
+                                    <img id="contact-creator" class="creator-photo" src="svg/Mathilda.svg" alt="Mathilda" width="34px" height="34px">
+                                    <span class="creator-name">Mathilda Brinker </span></a>
                                 </div>
                                 <div class="event-border-creator">
-                                    <a href="#contact-creator">      <img class="creator-photo"src="svg/Mathilda.svg" alt="Mathilda" width="34px" height="34px"></a>
-                                    <a href="#contact-creator"> <span class="creator-name">Mathilda Brinker </span></a>
+                        <img id="contact-creator" class="creator-photo" src="svg/Mathilda.svg" alt="Mathilda" width="34px" height="34px">
+                        <span class="creator-name">Mathilda Brinker </span></a>
                                     </div>
                                     <div class="event-border-creator">
-                                        <a href="#contact-creator">     <img class="creator-photo" src="svg/Mathilda.svg" alt="Mathilda" width="34px" height="34px"></a>
-                                        <a href="#contact-creator">   <span class="creator-name">Mathilda Brinker </span></a>
+                        <img id="contact-creator" class="creator-photo" src="svg/Mathilda.svg" alt="Mathilda" width="34px" height="34px">
+                        <span class="creator-name">Mathilda Brinker </span></a>
                                         </div>
-                                        <div class="container">
-                                                    <div id="contact-creator" class="modal3">
-                                                        <div class="modal-dialog3">
-                                                            <div class="modal-content-creator">
-                                                                <div class="modal-header3">
-                                                                    <img class="modal-title-chat_photo" src="svg/Mathilda.svg" alt="" width="45px" height="45px">
-                                                                    <span class="modal-title-chat_name" ><b> Mathilda Brinker</b></span><br/>
-                                                                    <span class="modal-title-chat_online"><b> Online</b></span>
-                                                                    <a href="#body" title="Close" class="close3"><img src="svg/Close-btn.svg" alt="" height="17" width="17"></a>
-                                                                </div>
-                                                                <div class="modal-body3">
-                                                                        <form action="#" method="post">
-                                                                                <p><textarea class="chat-textarea" rows="8" cols="51" name="text"></textarea></p>
-                                                                            <div class="lnk">
-                                                                                <img src="svg/ph.svg" alt="" width="15px" height="15px" >
-                                                                                <img class="lnk-margin" src="svg/flm.svg" alt="" width="15px" height="15px">
-                                                                                <img src="svg/mus.svg" alt="" width="15px" height="15px">
-                                                                                <img src="svg/pst.svg" alt="" width="15px" height="15px">
-                                                                            </div>
-                                                                            <button class="modal-btn-cancel2-chat">
-                                                                                    <span>Send</span>
-                                                                                </button>    
-                                                                        </form>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>    
-                                                <script>
-                                            document.addEventListener("DOMContentLoaded", function () {
-                                                var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
-                                                console.log(scrollbar);
-                                                document.querySelector('[href="#openModal"]').addEventListener('click', function () {
-                                                    document.body.style.overflow = 'hidden';
-                                                    document.querySelector('#openModal').style.marginLeft = scrollbar;
-                                                });
-                                                document.querySelector('[href="#close3"]').addEventListener('click', function () {
-                                                    document.body.style.overflow = 'visible';
-                                                    document.querySelector('#openModal').style.marginLeft = '0px';
-                                                });
-                                            });
-                                        </script>
+
                         </div>
                         </div>
                         
@@ -679,14 +638,16 @@
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-    <div id="modalWrapper2" class="modal-wrapper">
-            <div id="platformModal" class="modal platform-modal2">
-                <div class="modal-header2">
-                    <h2 class="modal-header__text">Choose Event</h2>
-                    <div class="modal-header__close-btn2 modal-header__close-btn--event2"></div>
+    <div id="modalWrapper3" class="modal-wrapper">
+            <div id="platformModal" class="modal-chat platform-modal3">
+                <div class="modal-header3">
+                    <img class="modal-title-chat_photo" src="svg/photo.svg" alt="" width="45px" height="45px" >
+                    <span class="modal-title-chat_name"><b> Mathilda Brinker</b></span><br/>
+                    <span class="modal-title-chat_online"><b> Online</b></span>
+                    <img class="close3" src="svg/Close-btn.svg" alt="" height="17" width="17"></a>
                 </div>
-                <div class="modal-body2">
-                    <div class="platform-modal__body2" >
+                <div class="modal-body3">
+                    <div class="platform-modal__body3" >
                         <form action="#" method="post">
                             <p><textarea class="chat-textarea" rows="8" cols="51" name="text"></textarea></p>
                         <div class="lnk">
@@ -703,41 +664,29 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <script>
-            const modalCloseBtns2 = Array.from(document.querySelectorAll('.modal-header__close-btn2'));
-            const contact = document.querySelector('#contact-creator');
-            const closeModal2 = function () {
-                const body2 = document.getElementById('body');
-                const modalWrapper2 = document.getElementById('modalWrapper2');
-                body2.classList.remove('no-overflow');
-                modalWrapper2.classList.remove('display-flex');
+        </div>                                                                                                                             
+        <script> 
+            const modalCloseBtns3 = Array.from(document.querySelectorAll('.close3'));
+            const openModalBtns3 = Array.from(document.querySelectorAll('.creator-photo'));
+            const closeModal3 = function () {
+                const body3 = document.getElementById('body');
+                const modalWrapper3 = document.getElementById('modalWrapper3');
+                body3.classList.remove('no-overflow');
+                modalWrapper3.classList.remove('display-flex');
             }
-            const openModal2 = function () {
-                const body2 = document.getElementById('body');
-                const modalWrapper2 = document.getElementById('modalWrapper2');
-                body2.classList.add('no-overflow');
-                modalWrapper2.classList.add('display-flex');
+            const openModal3 = function () {
+                const body3 = document.getElementById('body');
+                const modalWrapper3 = document.getElementById('modalWrapper3');
+                body3.classList.add('no-overflow');
+                modalWrapper3.classList.add('display-flex');
             }
-            contact.addEventListener('click', () => openModal2());
-            modalCloseBtns2.forEach(button => button.addEventListener('click', () => {
-                closeModal2();
+            modalCloseBtns3.forEach(button => button.addEventListener('click', () => {
+                closeModal3();
             }));
-        </script>                                                                    
-                                                                            <script>
-                                                                        document.addEventListener("DOMContentLoaded", function () {
-                                                                            var scrollbar = document.body.clientWidth - window.innerWidth + 'px';
-                                                                            console.log(scrollbar);
-                                                                            document.querySelector('[href="#openModal"]').addEventListener('click', function () {
-                                                                                document.body.style.overflow = 'hidden';
-                                                                                document.querySelector('#openModal').style.marginLeft = scrollbar;
-                                                                            });
-                                                                            document.querySelector('[href="#body"]').addEventListener('click', function () {
-                                                                                document.body.style.overflow = 'visible';
-                                                                                document.querySelector('#openModal').style.marginLeft = '0px';
-                                                                            });
-                                                                        });
-                                                                    </script>                                                                        
+            openModalBtns3.forEach(button => button.addEventListener('click', () => {
+                openModal3();
+            }));
+        </script>    
                                                                     <script> 
                                                                             const modalCloseBtns = Array.from(document.querySelectorAll('.EventModal-HeaderCloseBtn'));
                                                                             const openModalBtns = Array.from(document.querySelectorAll('.thumbnail,.description,.title,.title-2'));

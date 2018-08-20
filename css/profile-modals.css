@@ -42,7 +42,18 @@
 }
 .modal-choose {
   background-color: #fff;
-  height: 698px;
+  height: 600px;
+  display: none;
+  width: 100%;
+  max-width: 52rem;
+  border-radius: 3px;
+  position: relative;
+  right: 100px;
+  bottom: 100px;
+}
+.modal-chat {
+  background-color: #fff;
+  height: 200px;
   display: none;
   width: 100%;
   max-width: 52rem;
@@ -74,6 +85,16 @@
   border-bottom: 2px solid var(--border-color);
 }
 .modal-header2 {
+  border-radius: 3px 3px 0 0;
+  background-color: #6DA2FE;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  padding: 1.5rem;
+  position: relative;
+  border-bottom: 2px solid var(--border-color);
+}
+.modal-header3 {
   border-radius: 3px 3px 0 0;
   background-color: #6DA2FE;
   color: #fff;
@@ -475,6 +496,12 @@ input, text {border: none}
 .modal {
   display: block;
 }
+.modal-choose {
+  display: block;
+}
+.modal-chat {
+  display: block;
+}
 .modal__text {
   font-size: 1.4rem;
   margin-bottom: 2.5rem;
@@ -695,6 +722,7 @@ input, text {border: none}
       .close3 {
           float: right;
           text-decoration: none;
+          
       }
 
       /* свойства для кнопки "Закрыть" при нахождении её в фокусе или наведении */

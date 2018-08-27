@@ -118,7 +118,7 @@
   color: #9A9FBF;
   position: relative;
   left: 110px;
-  bottom: 28px;
+  bottom: 48px;
   font-size: 9px;
 }
 .text2 {
@@ -350,26 +350,15 @@ select {
   /* задаем стили кнопки выбора файла*/
   
   #file-upload {
-  
   position: relative;
-  
   overflow: hidden;
-  
   width: 74px;
-  
   height: 25px;
-  
   background: #FFFFFF;
-  
   border-radius: 2px;
-  
-  
   text-align: center;
-
   border: 1px solid #ACAFC2;
-
-  bottom: 85px;
-
+  bottom: 105px;
   left: 110px
   }
   
@@ -440,7 +429,7 @@ select {
   padding: 1rem;
   border-radius: 3px;
   position: relative;
-  bottom: 70px;
+  bottom: 90px;
 }
 .modal__button2:last-child {
   margin-right: 0;
@@ -497,7 +486,7 @@ select {
   padding: 1rem;
   border-radius: 3px;
   position: relative;
-  bottom: 60px;
+  bottom: 80px;
 }
 .modal__button3 span {
   font-size: 10px;
@@ -530,7 +519,7 @@ input, text {border: none}
 .modal__button--action-cancel {
   background-color: #515365;
   position: relative;
-  bottom: 70px
+  bottom: 90px
 }
 
 .modal__button:hover {

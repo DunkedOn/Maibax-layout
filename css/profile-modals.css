@@ -118,7 +118,7 @@
   color: #9A9FBF;
   position: relative;
   left: 110px;
-  bottom: 48px;
+  bottom: 28px;
   font-size: 9px;
 }
 .text2 {
@@ -368,7 +368,7 @@ select {
 
   border: 1px solid #ACAFC2;
 
-  bottom: 105px;
+  bottom: 85px;
 
   left: 110px
   }
@@ -412,7 +412,6 @@ select {
 .modal__button {
   width: 50%;
   margin-right: 1.5rem;
-
   color: #000;
   font-size: 1.4rem;
   cursor: pointer;
@@ -441,7 +440,7 @@ select {
   padding: 1rem;
   border-radius: 3px;
   position: relative;
-  bottom: 90px;
+  bottom: 70px;
 }
 .modal__button2:last-child {
   margin-right: 0;
@@ -498,7 +497,7 @@ select {
   padding: 1rem;
   border-radius: 3px;
   position: relative;
-  bottom: 80px;
+  bottom: 60px;
 }
 .modal__button3 span {
   font-size: 10px;
@@ -531,7 +530,7 @@ input, text {border: none}
 .modal__button--action-cancel {
   background-color: #515365;
   position: relative;
-  bottom: 90px
+  bottom: 70px
 }
 
 .modal__button:hover {

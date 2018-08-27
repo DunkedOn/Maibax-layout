@@ -77,12 +77,10 @@
 .platform-modal__input--date {
   background-image: url(../svg/date-input-icon.svg);
   max-width: 48%;
-  width: 165px;
   border: 1px solid #D8DBE6;
   border-radius: 2px;
   background-repeat: no-repeat;
   background-position: 90%;
-  width: 350px;
 }
 .platform-modal__from-group-wrapper {
   display: flex;
@@ -91,12 +89,10 @@
 
 .platform-modal__input--time {
   max-width: 48%;
-  width: 165px;
   left: 172px;
   bottom: 47px;
   border: 1px solid #D8DBE6;
   border-radius: 2px;
-  width: 350px;
 }
 .platform-modal__input--time-zone {
   max-width: 48%;

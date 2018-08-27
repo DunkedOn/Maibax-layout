@@ -1,5 +1,5 @@
 .platform-modal {
-  max-width: 36rem;
+  max-width: 46rem;
 }
 .platform-modal2 {
   max-width: 45rem;
@@ -30,6 +30,7 @@
   height: 300px;
   padding: 1.5rem;
   position: relative;
+  width: 450px;
 }
 .platform-modal__body2 {
   height: 550px;
@@ -76,6 +77,8 @@
   max-width: 48%;
   border: 1px solid #D8DBE6;
   border-radius: 2px;
+  background-repeat: no-repeat;
+  background-position: 90%;
 }
 .platform-modal__from-group-wrapper {
   display: flex;
@@ -84,7 +87,7 @@
 
 .platform-modal__input--time {
   max-width: 48%;
-  left: 172px;
+  left: 218px;
   bottom: 47px;
   border: 1px solid #D8DBE6;
   border-radius: 2px;
@@ -130,12 +133,12 @@
   background-color: var(--light-grey-bg);
 }
 .platform-modal__create-btn {
-  width: 100%;
-  width:125px ;
+  width: 100% !important;
+  width:125px !important;
   height: 25px;
   font-weight: 600;
-  background-color: white;
-  border: 1px solid #ACAFC2;
+  background-color: white !important;
+  border: 1px solid #ACAFC2 !important;
 }
 .platform-modal__friends-list {
   width: 24rem;
@@ -238,7 +241,6 @@
 .input__length-limit2 {
   position: absolute;
   right: 1.5rem;
-  bottom: 0.5rem;
   color: var(--placeholder-grey);
 }
 .modal-header__close-btn--event2 {
@@ -246,7 +248,7 @@
 }
 
 .modal-header__close-btn--event {
-  left: calc(100% + 24rem);
+  left: calc(100% + 24rem) !important;
 }
 
 .modal-body2::-webkit-scrollbar {

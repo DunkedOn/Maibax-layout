@@ -412,8 +412,7 @@ select {
 .modal__button {
   width: 50%;
   margin-right: 1.5rem;
-  background-color: white;
-  border: none;
+
   color: #000;
   font-size: 1.4rem;
   cursor: pointer;
@@ -537,8 +536,8 @@ input, text {border: none}
 
 .modal__button:hover {
   filter: brightness(1.1);
-  background-color: #6da2fe;
-  color: #FFF
+  background-color: #6da2fe !important;
+  color: #FFF !important;
 }
 .modal__button:active {
   filter: brightness(0.9);

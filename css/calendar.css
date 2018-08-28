@@ -84,11 +84,20 @@
   display: block;
   font-weight: 600;
   margin-bottom: 0.7rem;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  width: 200px;
+  height: 25px;
 }
 .Day-EventDescription {
   display: block;
   color: #888da8;
   margin-bottom: 0.7rem;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  width: 200px;
+  height: 53px;
 }
 .Day-EventTeacher {
   display: block;

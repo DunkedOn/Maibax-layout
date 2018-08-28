@@ -146,7 +146,7 @@ body {
   z-index: 100;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   background-color: var(--platform-bg-grey);
@@ -371,6 +371,16 @@ body {
   cursor: pointer;
 }
 .PlatformVideoContainer {
+  width: calc(100% - 25rem);
+  height: calc(100vh - 6rem);
+  min-height: 50px;
+  background-color: #fff;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  
+}
+.PlatformWhiteboardContainer {
   width: calc(100% - 25rem);
   height: calc(100vh - 6rem);
   min-height: 50px;

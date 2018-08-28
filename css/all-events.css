@@ -191,9 +191,9 @@ left: 27px;
   }
 .modal-event-descr {
     font-size: 14px;
-    float: left ;
+    float: right ;
     position: relative;
-     right: 98px;
+     right: 100pxpx;
      white-space: nowrap;
       overflow: hidden;
        text-overflow: ellipsis;

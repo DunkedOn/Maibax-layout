@@ -2,26 +2,26 @@
   max-width: 38rem !important;
 }
 .platform-modal2 {
-  max-width: 45rem;
+  max-width: 45rem !important;
   position: relative;
   margin: 0 auto;
   left: 25px;
   top: 10px;
 }
 .platform-modal3 {
-  max-width: 45rem;
+  max-width: 45rem !important;
   position: relative;
   margin: 0 auto;
   left: 50px;
 }
 .platform-modal-delete {
-  max-width: 45rem;
+  max-width: 45rem !important;
   position: relative;
   margin: 0 auto;
   left: 50px;
 }
 .platform-modal-assistant {
-  max-width: 45rem;
+  max-width: 45rem !important;
   position: relative;
   margin: 0 auto;
   left: 50px;

@@ -669,11 +669,10 @@ input, text {border: none}
   width: 85px;
   height: 30px;
   position: relative;
-  bottom: 16px;
   border: 1px solid #AEB2CC;
   border-radius: 2px;
   float: right;
-  bottom: 25px
+  bottom: 25px !important;
 }
 .modal-btn-start:hover {
   filter: brightness(1.2);

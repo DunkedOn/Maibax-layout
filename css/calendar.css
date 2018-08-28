@@ -35,10 +35,23 @@
   padding: 0 1.5rem;
   background-color: #fff;
   border-radius: 0 0 3px 3px;
+  overflow-y: scroll;
+  height: 600px;
 }
 .Day-Event {
   padding: 2rem 0 2rem 1rem;
   position: relative;
+}
+.Day-Events::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.Day-Events::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+.Day-Events::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .Day-Event::before {
   position: absolute;

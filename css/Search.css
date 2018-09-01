@@ -1,0 +1,416 @@
+.Search {
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 1150px;
+    height: 50px;
+    overflow: hidden;
+}
+.Search-input {
+float: left;
+width: 1050px;
+height: 50px;
+background-color: white;
+}
+.Search-button {
+    float: left;
+    width: 100px;
+    height: 50px;
+}
+.button-for-search {
+    border: 1px solid #6DA2FE;
+    border-radius: 0 10px 10px 0;
+    background-color: #6DA2FE;
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    font-size: 14px;
+}
+.button-for-search:active {filter: brightness(1.1)}
+.shadow { box-shadow: 0 5px 10px rgba(0,0,0,0.2);}
+.shadow_2 { box-shadow: 0 2px 3px rgba(0,0,0,0.3);}
+.input-for-search {
+    margin-left: 25px;
+    margin-top: 15px;
+    border: none;
+    outline:none;
+}
+.Search-results {
+    float: left;
+    position: relative;
+    width: 890px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    left: 95px;
+}
+.Search-result {
+    overflow: hidden;
+    width: 890px;
+    height: 237px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: white;
+    position: relative;
+}
+.teacher-profile {
+    float: left;
+    width: 175px;
+    height: 100%;
+}
+.profile-image{
+    width: 130px;
+    height: 130px;
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+.profile-statistics {
+    float: left;
+width: 175px;
+height: 50px;
+margin: 0 auto;
+margin-top: 10px;
+}
+.statistics-students {
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    text-align: center;
+    background-image: url("/svg/circle.svg");
+    background-repeat: no-repeat;
+}
+.statistics-lessons {
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    text-align: center;
+    background-image: url("/svg/circle.svg");
+    background-repeat: no-repeat
+}
+.statistics-reviews {
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+    text-align: center;
+    background-image: url("/svg/circle.svg");
+    background-repeat: no-repeat;
+}
+.statistics-number{
+    position: relative;
+     top: 10px;
+     font-size: 12px;
+     color: #6DA2FE;
+}
+.profile-statistics_name {
+    float: left;
+    width: 50px;
+    margin-left: 5px;
+    font-size: 10px;
+    color: #707070;
+}
+.statistics_name-text {position: relative;left: 5px;}
+.position-changed {margin-top: 25px;}
+.teacher-profile-information {
+    float: left;
+    width: 500px;
+    height: 100%;
+}
+.teacher-price {
+    border-left: 1px solid #DBDBDB;
+    float: left;
+    width: 215px;
+    height: 100%;
+}
+.price-header {
+float: left;
+width: 100%;
+height: 46px;    
+background-color: #FF5E3A;
+font-size: 16px;
+color: #fff;
+text-align: center
+}
+.price-header_text {position: relative; top: 15px; right: 5px;}
+.price {
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 85px;
+    font-size: 75px;
+    color: #515365;
+}
+.lesson-time {
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 15px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: 515365
+}
+.lesson-link{
+    margin-top: 10px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #515365
+}
+.lesson-link a {color: #515365; text-decoration: none}
+.lesson-edit {
+float: left;
+width: 100%;
+height: 40px;
+margin-top: 5px;
+}
+.edit-button {
+    background-color: #E6ECF5;
+    border: 1px solid #E6ECF5;
+    margin-left: 15px;
+    width: 180px;
+    height: 31px;
+    font-size: 16px;
+}
+.edit-button:active {
+border: 1px solid #6DA2FE;  
+}
+.profile-teacher_name {
+    float: left;
+    width: 125px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.profile-teacher_rating {
+    float: left;
+    width: 85px;
+    height: 20px;
+    overflow: hidden;
+}
+.teacher-raiting_star {float: left;}
+.information-position {
+    float: left;
+    clear: both;
+    width: 185px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    overflow: hidden;  
+}
+.teacher-status {
+    float: left;
+    clear: both;
+    width: 150px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #119B12;
+    overflow: hidden;  
+}
+.teacher-information {
+    float: left;
+    clear: both;
+    width: 425px;
+    height: 85px;
+    margin-top: 15px;
+    color: #888DA8;
+    margin-left: 10px;
+    font-size: 11px;
+    overflow: hidden;  
+}
+.teacher-specialization {
+    float: left;
+    clear: both;
+    border-bottom: 1px solid #E6ECF5;
+    width: 425px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+}
+.profile-teacher-specializations {
+    float: left;
+    clear: both;
+    width: 425px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+    overflow: hidden;   
+}
+.specializations-text {
+    float: left;
+    height: 16px;
+    border: 1px solid #E6ECF5;
+    margin-left: 10px;
+}
+.teacher-languages {
+    float: right;
+    margin-right: 63px;
+    border-bottom: 1px solid #E6ECF5;
+    width: 100px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;    
+    position: relative;
+    top: 15px;
+}
+.teacher-skills {
+    float: right;
+    clear: both;
+    width: 125px;
+    height: 20px;
+    margin-right: 50px;
+    font-size: 12px;
+    overflow: hidden; 
+    position: relative;
+    top: 20px;
+}
+.skills-text {
+    float: left;
+    height: 16px;
+    border: 1px solid #E6ECF5;
+    margin-left: 12px;
+}
+.Search-container {
+    max-width: 1290px;
+    width: 100%;
+    margin: 0 auto;
+}
+.Filters {
+    float: left;
+    margin-top: 35px;
+    width: 235px;
+    height: 635px;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+    left: 70px;
+}
+.Filters-header {
+    float:  left;
+    border-bottom: 1px solid #E6ECF5;
+    width: 100%;
+    height: 35px;
+}
+.Filters-header-text {
+float: left;
+font-weight: bold;
+font-size: 16px;
+margin-left: 10px;
+position: relative;
+top: 8px;
+}
+.Filters-header-all-clear {
+float: right;
+margin-right: 10px;
+position: relative;
+top: 10px;
+font-weight: lighter;
+font-size: 10px;
+}
+.Filters-teacher-type {
+    float:  left;
+    border-bottom: 2px solid #E6ECF5;
+    width: 90%;
+    margin-left: 10px;
+    height: 45px;
+}
+.Filters-type-text {
+float: left;
+font-size: 14px;
+margin-left: 10px;
+position: relative;
+top: 18px;
+}
+.Filters-type-clear {
+float: right;
+margin-right: 10px;
+position: relative;
+top: 20px;
+font-weight: lighter;
+font-size: 10px;
+}
+.checkbox,
+.radio {
+	display: none;
+}
+.checkbox-custom,
+.radio-custom {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #ccc;
+	border-radius: 3px;
+	position: relative;
+}
+.checkbox-custom,
+.radio-custom,
+.label {
+	display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.checkbox:checked + .checkbox-custom::before,
+.radio:checked + .radio-custom::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	bottom: 6px;
+	left: 5.4px;
+	background: #413548;
+    border-radius: 2px;
+    width: 5px;
+    height: 5px;
+}
+.radio-custom,
+.radio:checked + .radio-custom::before {
+	border-radius: 50%;
+}
+.choose-teacher-type {
+    float:  left;
+    width: 100%;
+    height: 90px;
+}
+.teacher-type {
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.radio-custom {cursor: pointer;}
+.Filters-pay-rate {
+    float:  left;
+    border-bottom: 2px solid #E6ECF5;
+    width: 90%;
+    margin-left: 10px;
+    height: 35px;
+}
+.Filters-pay-text {
+float: left;
+font-size: 14px;
+margin-left: 10px;
+position: relative;
+top: 8px;
+}
+.Filters-pay-clear {
+float: right;
+margin-right: 10px;
+position: relative;
+top: 10px;
+font-weight: lighter;
+font-size: 10px;
+}

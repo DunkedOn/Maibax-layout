@@ -180,7 +180,7 @@ margin-top: 5px;
     font-size: 16px;
 }
 .edit-button:active {
-border: 1px solid #6DA2FE;  
+filter: brightness(0.8)
 }
 .profile-teacher_name {
     float: left;
@@ -247,6 +247,7 @@ border: 1px solid #6DA2FE;
     width: 425px;
     height: 20px;
     margin-left: 10px;
+    margin-top: 5px;
     font-size: 10px;
     overflow: hidden;   
 }
@@ -294,7 +295,7 @@ border: 1px solid #6DA2FE;
     float: left;
     margin-top: 35px;
     width: 235px;
-    height: 635px;
+    height: 700px;
     background-color: white;
     overflow: hidden;
     position: relative;
@@ -384,8 +385,9 @@ font-size: 10px;
 }
 .choose-teacher-type {
     float:  left;
-    width: 100%;
+    width: 90%;
     height: 90px;
+    margin-left: 10px;
 }
 .teacher-type {
     margin-left: 10px;
@@ -413,4 +415,242 @@ position: relative;
 top: 10px;
 font-weight: lighter;
 font-size: 10px;
+}
+.Filters-rate {
+    float:  left;
+    width: 90%;
+    margin-left: 10px;
+    height: 35px;    
+}
+.Filters-speaks {
+    float:  left;
+    border-bottom: 2px solid #E6ECF5;
+    width: 90%;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Filters-speaks-text {
+float: left;
+font-size: 14px;
+margin-left: 10px;
+position: relative;
+top: 18px;
+}
+.Filters-speaks-clear {
+float: right;
+margin-right: 10px;
+position: relative;
+top: 20px;
+font-weight: lighter;
+font-size: 10px;
+}
+.Filters-speaks-language {
+    float:  left;
+    width: 90%;
+    height: 45px;
+    margin-left: 10px;
+}
+.Filters-language-container {
+float: left;
+margin-top: 15px;
+width: 212px;
+height: 20px;
+margin-left: 10px;
+background-color: rgba(230, 236, 245, 0.3);
+}
+.language-select {
+float: left;
+max-width: 100px;
+height: 20px;
+margin-left: 10px;
+}
+.language-select-text {
+position: relative;
+top: 3px
+}
+.language-select-delete {
+    position: relative;
+    left: 3px;
+    bottom: 3px;
+    font-size: 8px;
+    cursor: pointer;
+}
+.Filters-country{
+    float:  left;
+    border-bottom: 2px solid #E6ECF5;
+    width: 90%;
+    height: 45px;
+    margin-left: 10px;
+}
+.Filters-country-text {
+float: left;
+font-size: 14px;
+margin-left: 10px;
+position: relative;
+top: 18px;
+}
+.Filters-country-clear {
+float: right;
+margin-right: 10px;
+position: relative;
+top: 20px;
+font-weight: lighter;
+font-size: 10px;
+}
+.Filters-teacher-country{
+    float:  left;
+    width: 90%;
+    margin-left: 10px;
+    height: 45px;
+}
+.Filters-country-container {
+float: left;
+margin-top: 15px;
+width: 212px;
+height: 20px;
+background-color: rgba(230, 236, 245, 0.3);
+}
+.country-select {
+float: left;
+max-width: 100px;
+height: 20px;
+margin-left: 10px;
+}
+.country-select-text {
+position: relative;
+top: 3px
+}
+.country-select-delete {
+    position: relative;
+    left:3px;
+    bottom: 3px;
+    font-size: 8px;
+    cursor: pointer;
+}
+.Filters-experience{
+    float:  left;
+    border-bottom: 2px solid #E6ECF5;
+    width: 90%;
+    height: 35px;
+    margin-left: 10px;
+}
+.Filters-experience-text {
+float: left;
+font-size: 14px;
+margin-left: 10px;
+position: relative;
+top: 8px;
+}
+.Filters-experience-clear {
+float: right;
+margin-right: 10px;
+position: relative;
+top: 10px;
+font-weight: lighter;
+font-size: 10px;
+}
+.Filters-range-experience {
+    float:  left;
+    width: 90%;
+    margin-left: 10px;
+    height: 35px;    
+}
+.Filters-score{
+    float:  left;
+    border-bottom: 2px solid #E6ECF5;
+    width: 90%;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Filters-score-text {
+float: left;
+font-size: 14px;
+margin-left: 10px;
+position: relative;
+top: 18px;
+}
+.Filters-score-clear {
+float: right;
+margin-right: 10px;
+position: relative;
+top: 20px;
+font-weight: lighter;
+font-size: 10px;
+}
+.Filters-teacher-score{
+    float:  left;
+    width: 90%;
+    margin-left: 10px;
+    height: 45px;
+}
+.Filters-score-container {
+float: left;
+margin-top: 15px;
+width: 212px;
+height: 20px;
+background-color: rgba(230, 236, 245, 0.3);
+}
+.score-select {
+float: left;
+max-width: 100px;
+height: 20px;
+}
+.score-select-star {
+position: relative;
+top: 3px
+}
+.score-stars {margin-left: 10px}
+.Filters-specialization{
+    float:  left;
+    border-bottom: 2px solid #E6ECF5;
+    width: 90%;
+    height: 45px;
+    margin-left: 10px;
+}
+.Filters-specialization-text {
+float: left;
+font-size: 14px;
+margin-left: 10px;
+position: relative;
+top: 18px;
+}
+.Filters-specialization-clear {
+float: right;
+margin-right: 10px;
+position: relative;
+top: 20px;
+font-weight: lighter;
+font-size: 10px;
+}
+.Filters-teacher-specialization{
+    float:  left;
+    width: 90%;
+    margin-left: 10px;
+    height: 45px;
+}
+.Filters-specialization-container {
+float: left;
+margin-top: 15px;
+width: 212px;
+height: 20px;
+background-color: rgba(230, 236, 245, 0.3);
+}
+.specialization-select {
+float: left;
+max-width: 100px;
+height: 20px;
+margin-left: 10px;
+}
+.specialization-select-text {
+position: relative;
+top: 3px
+}
+.specialization-select-delete {
+    position: relative;
+    left:3px;
+    bottom: 3px;
+    font-size: 8px;
+    cursor: pointer;
 }

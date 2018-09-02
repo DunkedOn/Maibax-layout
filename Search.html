@@ -9,6 +9,10 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/profile.css">
     <link rel="stylesheet" type="text/css" href="css/Search.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+
 
 </head>
 
@@ -296,6 +300,86 @@
         <span class="Filters-pay-text">Pay Rate / Hr ($)</span>
         <span class="Filters-pay-clear">Clear</span>        
  </div>
+ <div class="Filters-rate">
+    <div>
+        <input type="text" id="range-pay" value="" name="range" />
+    </div>
+    </div>
+    <div class="Filters-speaks">
+        <span class="Filters-speaks-text">Teacher speaks</span>
+        <span class="Filters-speaks-clear">Clear</span>        
+ </div>
+ <div class="Filters-language">
+<div class="Filters-language-container">
+<div class="language-select">
+<span class="language-select-text">English</span>
+<span class="language-select-delete">x</span>
+</div>
+<div class="language-select">
+<span class="language-select-text">Espanol</span>
+<span class="language-select-delete">x</span>
+</div>
+</div>
+</div>
+<div class="Filters-country">
+        <span class="Filters-country-text">Country</span>
+        <span class="Filters-country-clear">Clear</span>        
+ </div>
+ <div class="Filters-teacher-country">
+<div class="Filters-country-container">
+<div class="country-select">
+<span class="country-select-text">USA</span>
+<span class="country-select-delete">x</span>
+</div>
+</div>
+</div>
+<div class="Filters-experience">
+        <span class="Filters-experience-text">Experience</span>
+        <span class="Filters-experience-clear">Clear</span>        
+ </div>
+  <div class="Filters-range-experience">
+    <div>
+        <input type="text" id="range-experience" value="" name="range" />
+    </div>
+</div>
+<div class="Filters-score">
+        <span class="Filters-score-text">Score</span>
+        <span class="Filters-score-clear">Clear</span>        
+ </div>
+ <div class="Filters-teacher-score">
+<div class="Filters-score-container">
+    <div class="score-stars">
+<div class="score-select">
+        <div class="score-select-star"></div><img class="raiting-star" src="/svg/Star.svg" width="15px" height="15px"> 
+</div>
+<div class="score-select">
+        <div class="score-select-star"></div><img class="raiting-star" src="/svg/Star.svg" width="15px" height="15px"> 
+</div>
+<div class="score-select">
+        <div class="score-select-star"></div><img class="raiting-star" src="/svg/Star.svg" width="15px" height="15px"> 
+</div>
+<div class="score-select">
+        <div class="score-select-star"></div><img class="raiting-star" src="/svg/Star.svg" width="15px" height="15px"> 
+</div>
+<div class="score-select">
+        <div class="score-select-star"></div><img class="raiting-star" src="/svg/Star.svg" width="15px" height="15px"> 
+</div>
+</div>
+</div>
+</div>
+<div class="Filters-specialization">
+        <span class="Filters-specialization-text">Specialization</span>
+        <span class="Filters-specialization-clear">Clear</span>        
+ </div>
+ <div class="Filters-teacher-specialization">
+<div class="Filters-specialization-container">
+<div class="specialization-select">
+
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="Search-results position-changed ">
@@ -489,6 +573,45 @@
 </div>
 </div>
 </div>
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/ion.rangeSlider.js"></script>
+
+<script>
+
+    $(function () {
+
+        $("#range-pay").ionRangeSlider({
+            hide_min_max: true,
+            keyboard: true,
+            min: 0,
+            max: 100,
+            from: 5,
+            to: 20,
+            type: 'double',
+            step: 1,
+            grid: true
+        });
+
+    });
+</script>
+<script>
+
+        $(function () {
+    
+            $("#range-experience").ionRangeSlider({
+                hide_min_max: true,
+                keyboard: true,
+                min: 0,
+                max: 50,
+                from: 5,
+                to: 20,
+                type: 'double',
+                step: 1,
+                grid: true
+            });
+    
+        });
+    </script>
 </body>
 
 </html>

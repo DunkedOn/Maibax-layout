@@ -1,0 +1,498 @@
+.Options{
+    margin: 0 auto;
+    width: 100%;
+}
+.Options-container {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    height: 100%;
+}
+.Options-profile {
+    float: left;
+    margin-top: 25px;
+    margin-left: 85px;
+    width: 205px;
+    height: 100px;
+    background-color: #fff;
+}
+.Options-content-information {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 655px;
+    height: 577px;
+    background-color: #fff;
+}
+
+.Options-content-interests {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 655px;
+    height: 636px;
+    background-color: #fff;
+}
+.Options-content-password {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 655px;
+    height: 370px;
+    background-color: #fff;
+}
+.Option-link {
+    color: #888DA8;
+    text-decoration: none;
+    float: left;
+    clear: both;
+}
+.Option-link:hover {
+color: #515365;
+}
+.Options-header {
+    float: left;
+    color: #515365;
+    font-weight: bold;
+    font-size: 16px;
+    border-bottom: 1px solid #E6ECF5;
+    width: 100%;
+    height: 60px;
+}
+.Options-profile-header {
+    float: left;
+    color: #9A9FBF;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px solid #E6ECF5;
+    width: 100%;
+    height: 40px;
+}
+.Options-profile_text {
+    float: left;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+.Options-header_text {position: relative;top: 23px;left: 25px;}
+.Options-container-information {
+float: left;
+margin-top: 10px;
+width: 100%;
+height: 380px;
+
+}
+.Options-container-interests{
+float: left;
+margin-top: 10px;
+width: 100%;
+height: 480px;
+
+}
+.Options-container-password {
+float: left;
+margin-top: 10px;
+width: 100%;
+height: 220px;
+
+}
+.Options-information-buttons {
+    float: left;
+    width: 100%;
+    height: 127px;
+    border-radius: 3px;
+}
+.Options-interests-buttons {
+    float: left;
+    width: 100%;
+    height: 88px;
+    border-radius: 3px;
+}
+.Options-password-buttons {
+    float: left;
+    width: 100%;
+    height: 81px;
+    border-radius: 3px;
+}
+.information-buttons_restore {
+float: left;
+width: 300px;
+height: 53px;
+background-color: #FF5E3A;
+border: 1px solid #FF5E3A;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+margin-left: 15px;
+margin-top: 35px;
+border-radius: 3px;
+}
+.information-buttons_save {
+float: left;
+width: 300px;
+height: 53px;
+background-color: #6DA2FE;
+border: 1px solid #6DA2FE;
+color: #fff;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+margin-left: 20px;
+margin-top: 35px;
+border-radius: 3px;
+}
+.information-buttons_restore:hover{filter: brightness(1.1)}
+.information-buttons_save:hover {filter: brightness(1.1)}
+.information-buttons_restore:active {filter: brightness(0.8)}
+.information-buttons_save:active {filter: brightness(0.8)}
+
+.interests-buttons_cancel {
+    float: left;
+    width: 300px;
+    height: 53px;
+    background-color: #FF5E3A;
+    border: 1px solid #FF5E3A;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius: 3px;
+    }
+    .interests-buttons_save {
+    float: left;
+    width: 300px;
+    height: 53px;
+    background-color: #6DA2FE;
+    border: 1px solid #6DA2FE;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 3px;
+    }
+    .interests-buttons_cancel:hover{filter: brightness(1.1)}
+    .interests-buttons_save:hover{filter: brightness(1.1)}
+    .interests-buttons_cancel:active{filter: brightness(0.8)}
+    .interests-buttons_save:active{filter: brightness(0.8)}
+    .password-button_save {
+        float: left;
+        width: 614px;
+        height: 53px;
+        background-color: #6DA2FE;
+        border: 1px solid #6DA2FE;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 15px;
+        border-radius: 3px;
+}
+.password-button_save:hover {filter: brightness(1.1)}
+.password-button_save:active {filter: brightness(0.8)}
+.form-first_name {
+    height: 55px;
+    width:300px;
+    margin-top: 10px;
+    margin-left: 10px;
+    top:0;
+    left:0;
+    float: left;
+    font-size: 12px;
+    border: 1px solid #D8DBE6;
+  }
+  .form-last_name {
+    margin-top: 10px;
+    height: 55px;
+    width: 300px;
+    margin-left: 15px;
+    top:0;
+    left:0;
+    float: left;
+    color: #888DA8;
+    font-size: 12px;
+    border: 1px solid #D8DBE6;
+    }
+   .reg-name-text {
+      padding: 4px;
+      margin: 5px    
+   }
+   .reg-email-text {
+      padding: 4px;
+      margin: 5px    
+   }
+   .reg-input-name {
+       max-width: 300px;
+       min-width: 250px;
+      border: 1px solid white;
+      color: #515365;
+      border-radius: 5px;
+      position: relative; 
+      left: 15px;
+      outline: none;
+   }
+   .reg-name-span {
+      position: relative;
+   }
+   
+     .register-email {
+        margin-top: 20px;
+        margin-left: 10px;
+        border: 1px solid #D8DBE6 ;
+        width: 300px;
+        height: 55px;
+        float: left; 
+        color: #888DA8;
+        font-size: 12px;
+     }
+     .register_login-email-text {
+    position: relative;
+    right: 110px;
+    top: 5px    
+ }
+ .input-email_password {
+    max-width: 250px;
+    max-height: 200px;
+    border: 1px solid white;
+    color: #515365;
+    position: relative; 
+    top: 10px;
+    left: 20px;
+    outline: none;
+}
+.register_login-email-text {
+    float: left;
+    position: relative;
+    left:20px;
+}
+.reg-name-span {
+    position: relative;
+    left: 10px;
+     color: #888DA8;
+ }
+ .form-select_step {
+    margin-top:20px;
+    margin-left:15px;
+    border: 1px solid #D8DBE6 ;
+    width: 300px;
+    height: 55px;
+    float: left;
+    color: #888DA8;
+  }
+
+  .step-select {
+      width: 260px;
+       margin-top: 5px;
+       font-size: 12px;
+       margin-left: 10px;
+       color: #515365; 
+       border: none;
+  }
+  .select-choose {
+      margin-top: 5px;
+    margin-left: 10px;
+      float: left;
+      font-size: 12px
+    }
+  .date-choose {
+    margin-left: 18px;
+      float: left;
+      font-size: 12px
+    }
+    .form-date_step {
+        margin-top: 20px;
+        margin-left:10px;
+        border: 1px solid #D8DBE6 ;
+        width: 300px;
+        height: 55px;
+        float: left;
+        color: #888DA8;
+      }
+    .form-date {
+        float: left;
+        font-size: 14px;
+        margin-top: 20px;
+        position: relative;
+        right: 70px;
+    }
+    .date {border: none;width: 100px;}
+    .form-date-icon {
+        float: right;
+        margin-right: 25px;
+        margin-top: 10px;
+    }
+   select {cursor: pointer;}
+.form-select_step_2 {
+    margin-top:20px;
+    margin-left:10px;
+    border: 1px solid #D8DBE6 ;
+    width: 198px;
+    height: 55px;
+    float: left;
+    color: #888DA8;
+}
+.select-choose_2 {
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    font-size: 12px
+  }
+  .step-select_2 {
+     width: 160px;
+     margin-top: 5px;
+     font-size: 12px;
+     margin-left: 10px;
+     color: #515365; 
+     border: none;
+}
+.form-select_step-languages {
+    margin-top: 25px;
+    margin-left:10px;
+    border: 1px solid #D8DBE6 ;
+    width: 300px;
+    height: 55px;
+    float: left;
+    color: #888DA8;
+  }
+  .form-select_step-languages_2 {
+    margin-top: 25px;
+    margin-left:15px;
+    border: 1px solid #D8DBE6 ;
+    width: 300px;
+    height: 55px;
+    float: left;
+    color: #888DA8;
+  }
+.step-select-languages {
+    width: 260px;
+     margin-top: 5px;
+     margin-left: 5px;
+     font-size: 12px;
+     position: relative;
+     color: #515365; 
+     border: none;
+}
+.form-interests_step{
+    margin-top: 15px;
+    margin-left:10px;
+    border: 1px solid #D8DBE6 ;
+    width: 205px;
+    height: 55px;
+    float: left;
+    color: #888DA8;
+  }
+  .text-interest {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: default;
+}
+.current-password {
+    margin-left: 10px;
+    border: 1px solid #D8DBE6 ;
+    width: 614px;
+    height: 55px;
+    float: left;
+    color: #888DA8;
+    margin-top: 20px;
+    font-size: 12px;
+    
+  }
+  .input-password {
+    max-width: 600px;
+    border: none ;
+    color: #888DA8;
+    position: relative;
+    top: 10px;
+    left: 15px;
+    outline: none;
+}
+.current-password-text {
+    position: relative;
+    top: 5px;    
+    left: 20px;
+ }
+    
+ .new-password {
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 1px solid #D8DBE6 ;
+    width: 302px;
+    height: 55px;
+    float: left; 
+    color: #888DA8;
+    font-size: 12px;
+ }
+ .content-nav-profile  {
+    display: none;
+    position: relative;
+  }
+  
+  .wrapper-nav-profile:active .content-nav-profile  {
+      display: block;
+  }
+  
+  .content-nav-profile:hover {
+      display: block;
+  }
+  .wrapper-nav-profile {
+      float: left;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 50px;
+    width: 205px;
+    float: left;
+    cursor: pointer;
+}
+.Options-profile_settings {
+    margin-left:  10px;
+    position: relative;
+    top: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.content-nav-profile  li {
+    width: 204px;
+    height: 53px;
+    position: relative;
+    top: 36px;
+    background-color: #FFF;
+    list-style: none;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,0.1);
+    border-left: 1px solid #E6ECF5;
+  }
+  .content-nav-profile  li button span {
+    position: relative;
+  margin-left: 20px;
+  margin-top: 10px;
+    }
+.content-nav-profile li button {
+    width: 204px;
+    height: 53px;
+    position: relative;
+    background-color: rgba(230, 236, 245, 0.2);
+    border: none;
+    color: #888DA8;
+    font-weight: bold;
+    font-size: 12px;
+    float: left;
+    cursor: pointer;
+}
+.content-nav-profile li button:hover {
+    background-color: #EBF0F8;
+    color: #515365;
+    font-weight: bold;
+    }
+.content-nav-profile li button:active {filter: brightness(0.9)}
+.nav-profile-text {
+    float: left;
+    position: relative;
+    bottom: 5px;
+}

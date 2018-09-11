@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9a9fbf;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_297" data-name="Group 297" transform="translate(-138.69 -131.553)">
+    <path id="Path_1853" data-name="Path 1853" class="cls-1" d="M204.091,140.5H184.773v15h20.455V148H207.5v7.5a2.4,2.4,0,0,1-2.273,2.5H184.773a2.4,2.4,0,0,1-2.273-2.5v-15a2.394,2.394,0,0,1,2.273-2.5h20.455a2.394,2.394,0,0,1,2.273,2.5h-3.409Z" transform="translate(-43.81 -6.447)"/>
+    <path id="Path_1854" data-name="Path 1854" class="cls-1" d="M195.045,156.5V154h2.273v2.5ZM190.5,154h2.273v2.5H190.5Z" transform="translate(-42.719 -2.447)"/>
+    <path id="Path_1855" data-name="Path 1855" class="cls-1" d="M201.136,156v2.5H187.5V156Z" transform="translate(-43.128 -1.947)"/>
+    <path id="Path_1856" data-name="Path 1856" class="cls-1" d="M202.5,142h2.273v2.5H202.5Z" transform="translate(-41.083 -5.447)"/>
+    <path id="Path_1857" data-name="Path 1857" class="cls-1" d="M197.591,147.5V145h2.273v2.5Zm-4.545-2.5h2.273v2.5h-2.273Zm-4.545,0h2.273v2.5H188.5Z" transform="translate(-42.992 -4.697)"/>
+  </g>
+</svg>

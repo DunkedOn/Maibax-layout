@@ -38,3 +38,6 @@ grunt.initConfig({
 });
  
 grunt.registerTask('default', ['sass']);
+var EditorCore = require('rc-editor-core');
+var React = require('react');
+React.render(<EditorCore />, container);

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #9a9fbf;
+      }
+
+      .cls-2 {
+        fill: #9a9fbf;
+      }
+    </style>
+  </defs>
+  <g id="upload" transform="translate(-16 0.5)">
+    <path id="Path_2639" data-name="Path 2639" class="cls-1" d="M135.874,3.91l-3.5-3.75a.521.521,0,0,0-.752,0l-3.5,3.75a.445.445,0,0,0-.079.5.5.5,0,0,0,.455.275h2v6.094a.485.485,0,0,0,.5.469h2a.485.485,0,0,0,.5-.469V4.688h2a.5.5,0,0,0,.455-.275A.445.445,0,0,0,135.874,3.91Z" transform="translate(-108.498)"/>
+    <path id="Path_2640" data-name="Path 2640" class="cls-2" d="M30,352v3.75H17V352H16v3.75a.97.97,0,0,0,1,.938H30a.969.969,0,0,0,1-.937V352Z" transform="translate(0 -341.688)"/>
+  </g>
+</svg>

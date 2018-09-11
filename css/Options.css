@@ -457,6 +457,12 @@ border-radius: 3px;
     font-weight: bold;
     cursor: pointer;
 }
+.Options-profile_svg {
+float: right;
+position: relative;
+right: 30px;
+top: 15px;
+}
 .content-nav-profile  li {
     width: 204px;
     height: 53px;

@@ -1,0 +1,130 @@
+<html>
+<head>
+<meta charset="utf-8"> 
+<link rel="stylesheet" href="css/whiteboard.css"> 
+<link rel="stylesheet" href="css/platform.css"> 
+</head>
+<body>
+    <div class="Platform">
+        <div class="PlatformNav">
+            <span class="PlatformNav-Header">New project discussion</span>
+            <div class="PlatformNav-Buttons">
+                <button class="PlatformNav-Button">Split into groups</button>
+                <button class="PlatformNav-Button">
+                    <img class="PlatformNav-ButtonImg" src="svg/share-screen-icon.svg" />Share screen</button>
+                <button class="PlatformNav-Button">
+                    <img class="PlatformNav-ButtonImg" src="svg/library-icon.svg" />Library</button>
+                <button class="PlatformNav-Button">
+                    <img class="PlatformNav-ButtonImg PlatformNav-ButtonImg_Poll" src="svg/poll-icon.svg" />Poll</button>
+                <span class="PlatformNav-Time">Time 1:24:45</span>
+                <button class="PlatformNav-Button PlatformNav-Button_Rec PlatformNav-Button_Rec_Disabled">Rec
+                    <img class="PlatformNav-RecIcon" src="svg/rec-icon.svg" alt="">
+                </button>
+                <button class="PlatformNav-Button">
+                    <img class="PlatformNav-LogoutIcon" src="svg/logout-icon.svg" alt="">
+                </button>
+                <button class="PlatformNav-Button">
+                    <img class="PlatformNav-LogoutIcon" src="svg/fullscreen-icon.svg" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="PlatformVideoContainer">
+            <div class="PlatformTabs">
+                <div class="PlatformTabs-Toggle">
+                    <button class="PlatformTabs-Btn ">Meeting room</button>
+                    <button class="PlatformTabs-Btn PlatformTabs-Btn_Active">Whiteboard
+                        <div class="PlatformTabs-CloseTab">
+                        </div>
+                    </button>
+                    <button class="PlatformTabs-Btn">
+                        <div class="PlatformTabs-BtnPlus">
+                        </div>
+                    </button>
+                </div>
+                <div class="PlatformTabs-View">
+                    <canvas class="Whiteboard-Canvas"></canvas>
+                </div>
+               
+            </div>
+            <div class="Whiteboard_top_panel"></div>
+            <div class="Whiteboard-Toolbar">
+                    <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/cursor.svg" alt="Select tool" title="Select tool" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/Rectangle.svg" alt="Select tool" title="Rectangle" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/circle.svg" alt="Select tool" title="Circle" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/Line.svg" alt="Select tool" title="Line" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/type_text.svg" alt="Select tool" title="Type text" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/brush.svg" alt="Select tool" title="Highlighter" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/eraser.svg" alt="Select tool" title="Eraser" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/grid.svg" alt="Select tool" title="Grid" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/function.svg" alt="Select tool"title="LaTeX tool" class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/cube.svg" alt="Select tool" title="Cube tool" class="Whiteboard-ToolIcon">
+                        <div class="Whiteboard-Tool_Wrapper">
+                            <div class="Whiteboard-InnerTools">
+                                    <div class="Whiteboard-Tool">
+                                            <img src="svg/whiteboard/cylinder.svg" title="Cylinder" alt="Select tool" class="Whiteboard-ToolIcon">
+                                        </div>
+                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/cone.svg" alt="Select tool" title="cone" class="Whiteboard-ToolIcon">
+                    </div>
+                     <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/cube.svg" alt="Select tool" title="Cube" class="Whiteboard-ToolIcon">
+                    </div>
+                    
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="Whiteboard-Tool ">
+                        <img src="svg/whiteboard/trash.svg" alt="Select tool" title="Clear tool"  class="Whiteboard-ToolIcon ">
+                    </div>                    <div class="Whiteboard-Tool">
+                            <img src="svg/whiteboard/search.svg" alt="Select tool" title="Zoom"  class="Whiteboard-ToolIcon">
+                        </div>
+                                            <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/upload.svg" alt="Select tool" title="Upload"  class="Whiteboard-ToolIcon">
+                                                <div class="Whiteboard-Tool_Wrapper">
+                            <div class="Whiteboard-InnerTools">
+                                    <div class="Whiteboard-Tool">
+                                            <img src="svg/whiteboard/document.svg" alt="Select tool" title="Document"  class="Whiteboard-ToolIcon">
+                                        </div>
+                                         <div class="Whiteboard-Tool">
+                                            <img src="svg/whiteboard/Photo.svg" alt="Select tool" title="Photo"  class="Whiteboard-ToolIcon">
+                                        </div>
+                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/video.svg" alt="Select tool" title="Video"  class="Whiteboard-ToolIcon">
+                    </div>
+                     <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/music.svg" alt="Select tool" title="Music"  class="Whiteboard-ToolIcon">
+                    </div>
+                            </div>
+                        </div>
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/right-arrow.svg" alt="Select tool" title="Arrow"  class="Whiteboard-ToolIcon">
+                    </div>
+                                        <div class="Whiteboard-Tool">
+                        <img src="svg/whiteboard/Wolfram.svg" alt="Select tool" title="Wolfram Alpha"  class="Whiteboard-ToolIcon">
+                    </div>
+                </div>
+            </div>
+<script src="js/text.js"></script>
+</body>
+</html>

@@ -364,6 +364,29 @@
                                 }));
                             </script>
                             <script> 
+                                const modalCloseBtns3 = Array.from(document.querySelectorAll('.close, .modal-btn-delete-close'));
+                                const openModalBtns3 = Array.from(document.querySelectorAll('.video'));
+                                const closeModal3 = function () {
+                                    const body3 = document.getElementById('body');
+                                    const modalWrapper3 = document.getElementById('modalWrapper-upload-video');
+                                    body3.classList.remove('no-overflow');
+                                    modalWrapper3.classList.remove('display-flex');
+                                }
+                                const openModal3 = function () {
+                                    const body3 = document.getElementById('body');
+                                    const modalWrapper3 = document.getElementById('modalWrapper-upload-video');
+                                    body3.classList.add('no-overflow');
+                                    modalWrapper3.classList.add('display-flex');
+                                }
+                                modalCloseBtns3.forEach(button => button.addEventListener('click', () => {
+                                    closeModal3();
+                                }));
+                                openModalBtns3.forEach(button => button.addEventListener('click', () => {
+                                    openModal3();
+                                }));
+                            </script>
+                            
+                            <script> 
                                 const modalCloseBtns4 = Array.from(document.querySelectorAll('.close, .modal-btn-delete-close'));
                                 const openModalBtns4 = Array.from(document.querySelectorAll('.document'));
                                 const closeModal4 = function () {

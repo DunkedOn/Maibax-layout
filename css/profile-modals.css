@@ -331,7 +331,6 @@
 select {
   border: none;
   outline: none;
-  -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   color: #515365;

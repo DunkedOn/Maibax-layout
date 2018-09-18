@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffce54;
+      }
+    </style>
+  </defs>
+  <g id="ballot_1_" data-name="ballot (1)" transform="translate(-64)">
+    <rect id="Rectangle_216" data-name="Rectangle 216" class="cls-1" width="2.857" height="0.517" transform="translate(71.5 3.103)"/>
+    <rect id="Rectangle_217" data-name="Rectangle 217" class="cls-1" width="2.857" height="0.517" transform="translate(72.929 4.138)"/>
+    <path id="Path_1785" data-name="Path 1785" class="cls-1" d="M149.558,50.344l-2.247,1.628-.462-.334-.5.366.967.7,2.753-1.993Z" transform="translate(-78.668 -48.716)"/>
+    <rect id="Rectangle_218" data-name="Rectangle 218" class="cls-1" width="1.429" height="0.517" transform="translate(72.929 7.241)"/>
+    <rect id="Rectangle_219" data-name="Rectangle 219" class="cls-1" width="1.786" height="0.517" transform="translate(74 8.276)"/>
+    <rect id="Rectangle_220" data-name="Rectangle 220" class="cls-1" width="2.857" height="0.517" transform="translate(71.5 11.379)"/>
+    <rect id="Rectangle_221" data-name="Rectangle 221" class="cls-1" width="1.786" height="0.517" transform="translate(71.5 12.414)"/>
+    <rect id="Rectangle_222" data-name="Rectangle 222" class="cls-1" width="1.786" height="0.517" transform="translate(74 12.414)"/>
+    <rect id="Rectangle_223" data-name="Rectangle 223" class="cls-1" width="1.786" height="0.517" transform="translate(71.5 8.276)"/>
+    <rect id="Rectangle_224" data-name="Rectangle 224" class="cls-1" width="0.714" height="0.517" transform="translate(71.5 4.138)"/>
+    <rect id="Rectangle_225" data-name="Rectangle 225" class="cls-1" width="0.714" height="0.517" transform="translate(71.5 7.241)"/>
+    <path id="Path_1786" data-name="Path 1786" class="cls-1" d="M78.834,2.1,76.1.119,75.934,0H64V15H79V2.221ZM76.143.883l1.638,1.186H76.143Zm2.143,13.6H64.714V.517H75.429V2.586h2.857Z"/>
+    <path id="Path_1787" data-name="Path 1787" class="cls-1" d="M128,192v2.586h3.571V192Zm2.857,2.069h-2.143v-1.552h2.143Z" transform="translate(-61.143 -185.793)"/>
+    <path id="Path_1788" data-name="Path 1788" class="cls-1" d="M128,320v2.586h3.571V320Zm2.857,2.069h-2.143v-1.552h2.143Z" transform="translate(-61.143 -309.655)"/>
+    <path id="Path_1789" data-name="Path 1789" class="cls-1" d="M130.857,65.552v.517h-2.143V64.517h1.429V64H128v2.586h3.571V65.552Z" transform="translate(-61.143 -61.931)"/>
+  </g>
+</svg>

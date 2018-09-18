@@ -391,7 +391,7 @@ body {
   
 }
 .PlatformVideo-Actions {
-  width: 8rem;
+  width: 20rem;
   position: absolute;
   top: 2rem;
   right: 6rem;
@@ -408,6 +408,7 @@ body {
   cursor: pointer;
   border-radius: 50%;
   z-index: 15;
+  margin-right: 25px;
 }
 .iframeVideo2 {
   background-color: green;
@@ -474,7 +475,7 @@ body {
 }
 .PlatformConnection-Actions {
   display: flex;
-  width: 3rem;
+  width: 4rem;
   justify-content: space-between;
 }
 .PlatformConnection-Action {

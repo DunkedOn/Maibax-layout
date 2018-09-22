@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="css/platform.css">
 <link rel="stylesheet" type="text/css" href="css/profile.css">
 <link rel="stylesheet" type="text/css" href="css/profile-modals.css">
+<script src="js/jscolor.js"></script>
 </head>
 <body id="body">
     <div class="Platform">
@@ -16,7 +17,7 @@
                     <img class="PlatformNav-ButtonImg" src="svg/share-screen-icon.svg" />Share screen</button>
                 <button class="PlatformNav-Button Library">
                     <img class="PlatformNav-ButtonImg" src="svg/library-icon.svg" />Library</button>
-                <button class="PlatformNav-Button">
+                <button class="PlatformNav-Button Test">
                     <img class="PlatformNav-ButtonImg PlatformNav-ButtonImg_Poll" src="svg/poll-icon.svg" />Poll</button>
                 <span class="PlatformNav-Time">Time 1:24:45</span>
                 <button class="PlatformNav-Button PlatformNav-Button_Rec PlatformNav-Button_Rec_Disabled">Rec
@@ -87,7 +88,7 @@
                              <option value="4">12</option>
                              <option value="5">14</option>
                                <option value="6">16</option>
-                                 <option value="7">Papyrus</option>
+                                 <option value="7"></option>
                                  <option value="8"></option>
                                      <option value="9"></option>
                                      <option value="10"></option>
@@ -121,8 +122,7 @@
                         </div>
                         <img src="svg/whiteboard/border.svg" alt="" width="1" height="12" class="top-panel__border">
                         <div class="font-color">
-                            <img src="svg/whiteboard/square-color.svg" alt="" class="square-color">
-                            <img src="svg/whiteboard/arrow-color.svg" alt="" class="arrow-color">
+                                <button class="jscolor {valueElement:null,value:'66ccff'}"></button>
                         </div>
                         <img src="svg/whiteboard/border.svg" alt="" width="1" height="12" class="top-panel__border">
                         <div class="align-text">
@@ -433,6 +433,7 @@
                                 <div class="modal-header__library">
                                     <span>Content Library</span>
                                     <img class="close" src="svg/Close-btn-delete.svg" alt="" height="17" width="17"></a>
+                                    <img class="library-upload" src="svg/whiteboard/library-upload.svg" alt="" height="25" width="25"></a>
                                 </div>
                                 <div class="modal-body__library">
                                     <div class="platform-modal__body3" >
@@ -457,7 +458,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/document-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/document-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Street </span>
@@ -471,7 +472,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/document-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/document-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Street </span>
@@ -493,7 +494,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/photo-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/photo-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Street </span>
@@ -507,7 +508,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/photo-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/photo-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Street </span>
@@ -529,7 +530,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/video-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/video-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Street </span>
@@ -543,7 +544,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/video-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/video-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Street </span>
@@ -565,7 +566,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/audio-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/audio-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Street </span>
@@ -579,7 +580,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/audio-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/audio-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Street </span>
@@ -601,7 +602,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/test-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/test-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Test About Food </span>
@@ -615,7 +616,7 @@
                                                                 <input class="checkbox" type="checkbox" name="radio-test">
                                                                 <span class="checkbox-custom"></span>
                                                             </label></div>
-                                                        <img src="/svg/whiteboard/test-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
+                                                        <img src="svg/whiteboard/test-content-library.svg" alt="" class="library-document-image" width="45px" height="53px">
                                                     </div>
                                                     <div class="library-text">
                                                         <span class="file-name-text">Amazing Test</span>
@@ -631,8 +632,60 @@
                             </div>
                             </div>
                             </div>
-                            <div>
+                            </div>
+                            </div>
                         </div>
+                    </div>
+                            <div id="modalWrapper-poll" class="modal-wrapper__poll">
+                            <div id="platformModal-poll" class="platform-modal__poll">
+                                <div class="modal-header__poll">
+                                    <span>Create test</span>
+                                    <img class="close" src="svg/Close-btn-delete.svg" alt="" height="17" width="17"></a>
+                                </div>
+                                <div class="modal-body__poll">
+                                    <div class="platform-modal__body3" >
+                                        <div class="pull-container">
+                                            <span class="add-question__span">Add a question</span>
+                                            <div class="add-question__textarea">
+                                                    <textarea class="textarea-question" placeholder="Write here"></textarea>
+                                            </div>
+                                            <div class="add-annswer-container">
+                                            <span class="add-question__span">Add answers</span>
+                                            <div class="add-question__text">
+                                                    <input class="text-answer" placeholder="Write here"/>                                            
+                                                    <div class="add-select">
+                                                <select class="add-answer-select">
+                                                    <option>Correct</option>
+                                                    <option>Wrong</option>
+                                                </select>
+                                            </div>
+                                                    <input class="text-answer" placeholder="Write here"/>
+                                                   <div class="add-select">
+                                                        <select class="add-answer-select">
+                                                                <option>Correct</option>
+                                                                <option>Wrong</option>
+                                                            </select>
+                                            </div>
+                                            <div class="add-answer">
+                                           <img src="svg/whiteboard/Plus_Button_Icon.svg" alt="" class="add-answer-plus" width="10px" height="10px"> 
+                                           <span class="add-answer-text">Add</span>
+                                        </div>
+                                        <div class="add-question">
+                                                <img src="svg/whiteboard/Plus_Button_Icon.svg" alt="" class="add-question-plus" width="12px" height="12px"> 
+                                                <span class="add-question-text">Add a question</span>
+                                             </div>
+                                            </div>
+
+                                        </div>
+                                        </div>
+                                        <div class="library-buttons">
+                                                <button class="poll__save-button"><span>Save</span></button>
+                                            </div>
+                                                </div>                                                
+                                            </div>
+                                            </div>
+                                        </div>
+
                         <script src="js/jquery-1.12.3.min.js"></script>
                         <script>
                         $(function(){
@@ -776,7 +829,28 @@ $("#tabs>a:first").trigger("click");
                                 openModalBtns5.forEach(button => button.addEventListener('click', () => {
                                     openModal5();
                                 }));
-                            </script>                
-                            <script src="js/easydropdown.js"></script>
+                            </script>
+                            <script> 
+                                const modalCloseBtns6 = Array.from(document.querySelectorAll('.close'));
+                                const openModalBtns6 = Array.from(document.querySelectorAll('.Test'));
+                                const closeModal6 = function () {
+                                    const body6 = document.getElementById('body');
+                                    const modalWrapper6 = document.getElementById('modalWrapper-poll');
+                                    body6.classList.remove('no-overflow');
+                                    modalWrapper6.classList.remove('display-flex');
+                                }
+                                const openModal6 = function () {
+                                    const body6 = document.getElementById('body');
+                                    const modalWrapper6 = document.getElementById('modalWrapper-poll');
+                                    body6.classList.add('no-overflow');
+                                    modalWrapper6.classList.add('display-flex');
+                                }
+                                modalCloseBtns6.forEach(button => button.addEventListener('click', () => {
+                                    closeModal6();
+                                }));
+                                openModalBtns6.forEach(button => button.addEventListener('click', () => {
+                                    openModal6();
+                                }));
+                            </script>                      
 </body>
 </html>

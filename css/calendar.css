@@ -48,12 +48,11 @@
 }
 
 .Day-Event:active{
-  filter: brightness(0.9)
+  background-color: #BAD3FF;
 }
 
 .Day-Event.active{
-  background-color: #F2F5FA;
-  filter: brightness(0.95)
+  background-color: #BAD3FF;
 }
 
 
@@ -284,7 +283,7 @@
   border-radius: 0 0 3px 3px;
 }
 .EventModal-Header {
-  padding: 2.5rem;
+  padding: 1.5rem;
   position: relative;
 }
 .EventModal-HeaderIcon {

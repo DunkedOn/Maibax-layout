@@ -42,6 +42,21 @@
   padding: 2rem 0 2rem 1rem;
   position: relative;
 }
+
+.Day-Event:hover{
+  background-color: #F2F5FA;
+}
+
+.Day-Event:active{
+  filter: brightness(0.9)
+}
+
+.Day-Event.active{
+  background-color: #F2F5FA;
+  filter: brightness(0.95)
+}
+
+
 .Day-Events::-webkit-scrollbar {
   width: 0.5rem;
 }

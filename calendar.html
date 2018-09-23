@@ -704,6 +704,12 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script>
+$('.Day-Event').on('click', function(){
+    $(this).toggleClass('active');
+});
+</script>
     <script> 
         const modalCloseBtns = Array.from(document.querySelectorAll('.EventModal-HeaderCloseBtn'));
         const openModalBtns = Array.from(document.querySelectorAll('.CalendarDay'));

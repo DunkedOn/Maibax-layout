@@ -119,6 +119,7 @@ body2 {
 }
 .nav-link__invintations {
   position: relative;
+  
 }
 .nav-link__invintations:hover .navigation-dropdown {
   display: block;
@@ -147,6 +148,54 @@ body2 {
 .navigation-dropdown__item-info {
   display: flex;
   width: 70%;
+}
+.navigation-dropdown__items-friends {
+  height: 200px;
+  overflow-y: scroll;
+  background-color: #FFF
+}
+.navigation-dropdown__items-friends::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.navigation-dropdown__items-friends::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.navigation-dropdown__items-friends::-webkit-scrollbar-thumb {
+  background: var(--text-color-2);
+  border-radius: 10px;
+}
+.navigation-dropdown__items-invitations {
+  height: 200px;
+  overflow-y: scroll;
+  background-color: #FFF
+}
+.navigation-dropdown__items-invitations::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.navigation-dropdown__items-invitations::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.navigation-dropdown__items-invitations::-webkit-scrollbar-thumb {
+  background: var(--text-color-2);
+  border-radius: 10px;
+}
+.navigation-dropdown__items-messages {
+  height: 300px;
+  overflow-y: scroll;
+  background-color: #FFF
+}
+.navigation-dropdown__items-messages::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.navigation-dropdown__items-messages::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.navigation-dropdown__items-messages::-webkit-scrollbar-thumb {
+  background: var(--text-color-2);
+  border-radius: 10px;
 }
 .navigation-dropdown__item-description {
   overflow: hidden;
@@ -211,6 +260,7 @@ body2 {
 .navigation-dropdown__accept-btn.navigation-dropdown__friend-accepted {
   background-image: url(../svg/friend-accepted.svg);
   background-color: transparent;
+  float: left;
 }
 .nav-link__messages:hover .navigation-dropdown__messages {
   display: block;
@@ -583,6 +633,21 @@ body2 {
   color: var(--text-color);
   font-weight: 600;
   text-decoration: none;
+}
+.profile-interests__wrapper {
+  height: 250px;
+  overflow-y: scroll;
+}
+.profile-interests__wrapper::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.profile-interests__wrapper::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.profile-interests__wrapper::-webkit-scrollbar-thumb {
+  background: var(--text-color-2);
+  border-radius: 10px;
 }
 .online-friends__header {
   border-bottom: none;
@@ -1253,6 +1318,10 @@ body2 {
 
 .picture-post__search-result-details {
   position: absolute;
+  right: 35px;
+  top: 10px;
+  float: left;
+  
 }
 .central-column-widget__header {
   font-size: 1.8rem;

@@ -13,13 +13,17 @@
   font-weight: 600;
 }
 .Day-Detail {
-  background-color: #3f4257;
+  background-image: url(../svg/calendar-bg.svg);
   color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem 0;
   border-radius: 3px 3px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 186px;
+  width: 100%;
 }
 .Day-Num {
   font-size: 7.5rem;
@@ -37,10 +41,13 @@
   border-radius: 0 0 3px 3px;
   overflow-y: scroll;
   height: 405px;
+  position: relative;
+  bottom: 14px;
 }
 .Day-Event {
   padding: 2rem 0 2rem 1rem;
   position: relative;
+  cursor: pointer;
 }
 
 .Day-Event:hover{
@@ -95,17 +102,18 @@
   margin-bottom: 0.7rem;
   position: relative;
 }
-.Day-EventTime::before {
+
+.Day-EventTime-circle {
   position: absolute;
   content: "";
-  width: 0.7rem;
-  height: 0.7rem;
+  width: 1rem;
+  height: 1rem;
   border: 2px solid #6da2fe;
   border-radius: 50%;
-  left: -1.5rem;
-  top: 0.1rem;
+  left: -0.4rem;
+  top: 2.2rem;
   background-color: #fff;
-  z-index: 10;
+  z-index: 10;  
 }
 .Day-EventName {
   display: block;
@@ -140,6 +148,9 @@
   padding-left: 0.7rem;
 }
 .Day-Actions {
+  position: relative;
+  bottom: 14px;
+  background-color: #fff;
   width: 100%;
   padding: 0 1.5rem 1.5rem;
 }
@@ -395,4 +406,117 @@
 }
 .EventModal-Btn:active {
   filter: brightness(0.9);
+}
+.ColumnWidget {
+  border: 1px solid black;
+  width: 210px;
+}
+.ColumWidged_title {
+  height: 20px;
+  width: 195px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.ColumnWidged_Container {
+  border-bottom: 1px solid #E6ECF5;
+  clear: both;
+  width: 190px;
+  height: 181px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.ColumnWidged_Container_title {
+  float: left;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.Activity-Feed_text {
+float: left;
+clear: both;
+}
+.Activity-Feed_text {
+  float: left;
+  clear: both;
+  color: #888DA8;
+  overflow: hidden;
+  width: 190px;
+  height: 25px;
+  margin-top: 5px;
+}
+.ColumnWidged_svg {
+  float: left;
+}
+.clicked {
+  border: 2px solid #04B44A;
+}
+.CalendarDay-active {
+  background-color: rgba(230, 236, 245, 20%);
+}
+.Activity-Feed_image {
+  float: left;
+  margin-top: 5px;
+  clear: both;
+  width: 100%;
+  height: 100px;
+  background-image: url(../imgs/Activity-feed-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Feed-image-free {
+  position: relative;
+  top: 80px;
+  right: 7px;
+  float: left;
+  width: 40px;
+  height: 12px;
+  background-color: #FF0000;
+}
+.Feed-image-free_text {
+  float: left;
+  margin-left: 10px;
+  position: relative;
+  bottom: 1px;
+  color: #fff;
+  font-weight: bold;
+}
+.Activity-Feed_date {
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.Activity-Feed_time {
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 6px;
+}
+.Feed-image-plus {
+  position: relative;
+  border-radius: 50px;
+  box-shadow: 0 1px 7px rgba(0, 0, 0, 0.4);
+  top: 85px;
+  left: 115px;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  float: left;
+}
+.image-plus {
+  position: relative;
+  left: 7px;
+  top: 8px;
+}
+.display-none {
+  z-index: -1;
+}
+.your-class {
+  height: 200px;
+  width: 100%;
 }

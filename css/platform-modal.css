@@ -44,7 +44,6 @@
   padding: 1.5rem;
   position: relative;
   width: 600px !important;
-  
 }
 
 .platform-modal__from-group {
@@ -86,7 +85,6 @@
   display: flex;
   justify-content: space-between;
 }
-
 .platform-modal__input--time {
   max-width: 48%;
   left: 172px;

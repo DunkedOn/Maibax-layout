@@ -81,6 +81,8 @@
   color: var(--text-color);
   font-weight: 600;
   margin-bottom: 0.3rem;
+  width: 140px;
+  overflow: hidden;
 }
 .dialog-tem__message-preview {
   font-size: 1.4rem;

@@ -141,6 +141,9 @@ body {
 .PlatformTabs-Btn_Active {
   background-color: #fff;
 }
+.Whiteboard-Tool_Active {
+
+}
 .PlatformTabs {
   position: absolute;
   z-index: 100;

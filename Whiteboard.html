@@ -240,40 +240,7 @@
                                                         <span class="upload-text">Browse your computer...</span>
                                                     </div>
                                             </div>
-                                            <div class="modal-body__upload-library Library">
-                                                <div class="modal-body__upload-icon">
-                                                    <img src="svg/whiteboard/music-icon.svg" alt="" class="upload-icon">
-                                                </div>
-                                                <div class="modal-body__upload-text">
-                                                        <span class="upload-text">Choose from my library</span>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                        <div class="modal-body__allowed">
-                                            <span class="allowed-text">The following formats are allowed:<span class="allowed-list">.mp3</span></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                            <div id="modalWrapper-upload-music" class="modal-wrapper__music">
-                            <div id="platformModal" class="platform-modal__music">
-                                <div class="modal-header__music">
-                                    <span>Upload audio</span>
-                                    <img class="close" src="svg/Close-btn-delete.svg" alt="" height="17" width="17"></a>
-                                </div>
-                                <div class="modal-body__music">
-                                    <div class="platform-modal__body3" >
-                                        <div class="modal-body_container">
-                                            <div class="modal-body__upload-browser">
-                                                <div class="modal-body__upload-icon">
-                                                    <img src="svg/whiteboard/browser-icon.svg" alt="" class="upload-icon">
-                                                </div>
-                                                <div class="modal-body__upload-text">
-                                                        <span class="upload-text">Browse your computer...</span>
-                                                    </div>
-                                            </div>
-                                            <div class="modal-body__upload-library Library">
+                                            <div class="modal-body__upload-library">
                                                 <div class="modal-body__upload-icon">
                                                     <img src="svg/whiteboard/music-icon.svg" alt="" class="upload-icon">
                                                 </div>
@@ -306,7 +273,7 @@
                                                         <span class="upload-text">Browse your computer...</span>
                                                     </div>
                                             </div>
-                                            <div class="modal-body__upload-library Library">
+                                            <div class="modal-body__upload-library">
                                                 <div class="modal-body__upload-icon">
                                                     <img src="svg/whiteboard/video-icon.svg" alt="" class="upload-icon">
                                                 </div>
@@ -331,36 +298,6 @@
 
                                         </div>
 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="modalWrapper-upload-image" class="modal-wrapper__image">
-                            <div id="platformModal" class="platform-modal__image">
-                                <div class="modal-header__image">
-                                    <span>Upload image</span>
-                                    <img class="close" src="svg/Close-btn-delete.svg" alt="" height="17" width="17"></a>
-                                </div>
-                                <div class="modal-body__image">
-                                    <div class="platform-modal__body-image" >
-                                        <div class="modal-body_container">
-                                            <div class="modal-body__upload-browser">
-                                                <div class="modal-body__upload-icon">
-                                                    <img src="svg/whiteboard/browser-icon.svg" alt="" class="upload-icon">
-                                                </div>
-                                                <div class="modal-body__upload-text">
-                                                        <span class="upload-text">Browse your computer...</span>
-                                                    </div>
-                                            </div>
-                                            <div class="modal-body__upload-library Library">
-                                                <div class="modal-body__upload-icon">
-                                                    <img src="svg/whiteboard/image-icon.svg" alt="" class="upload-icon">
-                                                </div>
-                                                <div class="modal-body__upload-text">
-                                                        <span class="upload-text">Choose from my library</span>
-                                                    </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -412,7 +349,7 @@
                                                         <span class="upload-text">Browse your computer...</span>
                                                     </div>
                                             </div>
-                                            <div class="modal-body__upload-library Library">
+                                            <div class="modal-body__upload-library">
                                                 <div class="modal-body__upload-icon">
                                                     <img src="svg/whiteboard/document-icon.svg" alt="" class="upload-icon">
                                                 </div>
@@ -810,7 +747,7 @@ $("#tabs>a:first").trigger("click");
                             </script>
                             <script> 
                                 const modalCloseBtns5 = Array.from(document.querySelectorAll('.close, .modal-btn-delete-close'));
-                                const openModalBtns5 = Array.from(document.querySelectorAll('.Library'));
+                                const openModalBtns5 = Array.from(document.querySelectorAll('.Library, .modal-body__upload-library '));
                                 const closeModal5 = function () {
                                     const body5 = document.getElementById('body');
                                     const modalWrapper5 = document.getElementById('modalWrapper-library');

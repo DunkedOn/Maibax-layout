@@ -1,0 +1,670 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+:root {
+  --light-blue: #90c2fe;
+  --dark-blue: #3f92f8;
+  --light-grey: #b2b2b2;
+  --light-grey-bg: #f9fbfc;
+  --button-grey-bg: #9a9fbf;
+  --Roboto: "Roboto", sans-serif;
+  --border-color: #e6ecf5;
+  --border-color-2: #d8dbe6;
+  --dark-grey-border: #9a9fbf;
+  --text-color: #515365;
+  --text-color-2: #888da8;
+  --text-color-red: #ff0000;
+  --text-color-green: #08b53c;
+  --placeholder-grey: #888da8;
+  --dialogs-bg-grey: #f1f5f8;
+  --platform-bg-grey: #f5f5f5;
+  --platform-border-color: #c2c5d8;
+  --transition-default: all 0.2s ease-out;
+}
+*,
+div {
+  box-sizing: border-box;
+}
+html {
+  font-family: var(--Roboto);
+  font-size: 10px;
+}
+button:disabled {
+  filter: grayscale(1);
+  cursor: not-allowed;
+}
+button:disabled:hover {
+  filter: grayscale(1);
+  cursor: not-allowed;
+}
+body {
+  font-family: var(--Roboto);
+  background-color: var(--platform-bg-grey);
+  color: var(--text-color);
+  padding: 0;
+  margin: 0;
+}
+.PlatformNav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 5rem;
+  background-color: var(--platform-bg-grey);
+  border-bottom: 1px solid var(--platform-border-color);
+  z-index: 1000;
+}
+.PlatformNav-Buttons {
+  display: flex;
+}
+.PlatformNav-Button {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--text-color);
+  padding: 0 2rem;
+}
+.PlatformNav-Button_Rec {
+  font-weight: 600;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.PlatformNav-Button_Rec_Disabled {
+  filter: grayscale(1);
+}
+.PlatformNav-Time {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: var(--text-color);
+  margin: 0 1rem;
+}
+.PlatformNav-Header {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.PlatformNav-ButtonImg {
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+.PlatformNav-ButtonImg_Poll {
+  width: 1.2rem;
+}
+.PlatformNav-RecIcon {
+  width: 3rem;
+  margin-left: 1.5rem;
+}
+.PlatformNav-LogoutIcon {
+  width: 2.5rem;
+}
+.PlatformTabs-Btn {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.PlatformTabs-BtnPlus {
+  width: 1.4rem;
+  height: 1.4rem;
+  background-color: var(--text-color-2);
+  border-radius: 2px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../svg/tab-plus-icon.svg);
+}
+.PlatformTabs-CloseTab {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 6px;
+  height: 6px;
+  border: none;
+  display: block;
+  background-image: url("../svg/close-tab.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.PlatformTabs-Btn:first-child {
+  padding-left: 4.5rem;
+}
+.PlatformTabs-Btn_Active {
+  background-color: #fff;
+}
+.PlatformTabs {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--platform-bg-grey);
+}
+.PlatformTabs-ToogleViewBtn {
+  width: 6rem;
+  height: 4.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+.PlatformTabs-ToogleViewBtn svg {
+  width: 1.8rem;
+  fill: var(--button-grey-bg);
+}
+.PlatformTabs-View {
+  display: flex;
+}
+.PlatformTabs-ToogleViewBtn_Active svg {
+  fill: #ff5e3a;
+}
+.PlatformSidepanel {
+  right: 0;
+  width: 25rem;
+  background: #fff;
+  height: calc(100vh - 6.1rem);
+  border-left: 1px solid var(--platform-border-color);
+  display: inline-block;
+  flex-direction: column;
+  position: relative;
+  vertical-align: top;
+}
+.PlatformSidepanel-Header {
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  height: 4.4rem;
+  font-size: 1.6rem;
+  color: var(--text-color);
+  align-content: stretch;
+  border-bottom: 1px solid var(--platform-border-color);
+}
+.Participants {
+  height: calc(100% - 4.5rem);
+  width: 100%;
+  overflow: auto;
+  transition: var(--transition-default);
+  padding-bottom: 3rem;
+}
+.PlatformConnections-ItemsWrapper::-webkit-scrollbar {
+  height: 0.5rem;
+}
+.PlatformConnections-ItemsWrapper::-webkit-scrollbar,
+.Participants::-webkit-scrollbar,
+.PlatformChat-Dialog::-webkit-scrollbar,
+.MeetingRoom::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.PlatformConnections-ItemsWrapper::-webkit-scrollbar-track,
+.Participants::-webkit-scrollbar-track,
+.MeetingRoom::-webkit-scrollbar-track,
+.PlatformChat-Dialog::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.PlatformConnections-ItemsWrapper::-webkit-scrollbar-thumb,
+.Participants::-webkit-scrollbar-thumb,
+.MeetingRoom::-webkit-scrollbar-thumb,
+.PlatformChat-Dialog::-webkit-scrollbar-thumb {
+  background: var(--text-color-2);
+  border-radius: 10px;
+}
+.PlatformChat {
+  border-top: 1px solid var(--platform-border-color);
+  height: calc(100% - 9rem);
+  width: 100%;
+  background-color: var(--platform-bg-grey);
+  transition: var(--transition-default);
+}
+.PlatformChat-Input {
+  order: 1;
+}
+.Participant-Upic {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: var(--placeholder-grey);
+  margin-right: 0.8rem;
+  display: flex;
+  overflow: hidden;
+}
+.Participant {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.Participant:hover {
+  background-color: var(--dialogs-bg-grey);
+}
+.Participant-Name {
+  font-size: 1.2rem;
+}
+.Participant-Action {
+  width: 1.2rem;
+  height: 1.2rem;
+  display: flex;
+  cursor: pointer;
+}
+.Participant-Action svg {
+  width: 100%;
+  fill: var(--dark-blue);
+}
+.Participant-Action:hover svg {
+  fill: #ff5e3a;
+}
+.Participant-Action.Participant-Action_Active svg {
+  fill: #ff5e3a;
+}
+.Participant-UserInfo {
+  display: flex;
+  align-items: center;
+}
+.Participant-Actions {
+  display: flex;
+  width: 5.5rem;
+  justify-content: space-between;
+}
+.Participant-UpicImg {
+  width: 100%;
+}
+.PlatformChat-Header {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--platform-bg-grey);
+}
+/*border-bottom: 1px solid var(--platform-border-color);*/
+.PlatformChat-MinBtn {
+  width: 1.4rem;
+  cursor: pointer;
+}
+.PlatformChat-FriendMessage {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.PlatformChat-Name {
+  font-weight: 600;
+}
+.PlatformChat-FriendMessageText {
+  background-color: var(--dark-blue);
+  border-radius: 3px;
+  color: #fff;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  position: relative;
+}
+.PlatformChat-FriendMessageText:before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  transform: rotateZ(45deg);
+  border: 1px solid var(--dark-blue);
+  position: absolute;
+  top: -0.3rem;
+  left: 1rem;
+  background-color: var(--dark-blue);
+}
+.PlatformChat-Friend {
+  margin-bottom: 0.8rem;
+}
+.PlatformChat-UserMessage {
+  align-items: flex-end;
+}
+.PlatformChat-UserUpic {
+  margin-bottom: 0.8rem;
+  margin-right: 0;
+}
+.PlatformChat-UserMessageText {
+  background-color: #dbdde3;
+  color: var(--text-color);
+}
+.PlatformChat-UserMessageText::before {
+  border: 1px solid #dbdde3;
+  background-color: #dbdde3;
+  right: 1rem;
+  left: auto;
+}
+.PlatformChat-Dialog {
+  height: 100%;
+  overflow: auto;
+  padding: 1rem;
+}
+.PlatformChat-SendMessage {
+  height: 3.5rem;
+  position: relative;
+}
+.PlatformChat-MessageInput {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem 6rem 0.5rem 1rem;
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+.PlatformChat-SendMessageBtn {
+  width: 2.5rem;
+  position: absolute;
+  top: 0.5rem;
+  right: 1.5rem;
+  cursor: pointer;
+}
+.PlatformVideoContainer {
+  width: calc(100% - 25rem);
+  height: calc(100vh - 6rem);
+  min-height: 50px;
+  background-color: #fff;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+}
+.PlatformVideo-Actions {
+  width: 8rem;
+  position: absolute;
+  top: 2rem;
+  right: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+.PlatformVideo-Action {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: var(--dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+  border-radius: 50%;
+  z-index: 15;
+}
+.iframeVideo {
+  background-color: green;
+  height: 65vh;
+  width: 100%;
+}
+.PlatformConnections {
+  width: 100%;
+  height: 21%;
+  min-height: 15rem;
+  background-color: #fff;
+  padding: 0;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  position: relative;
+}
+.PlatformConnections-ItemsWrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  overflow: auto;
+  overflow: scroll;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 1rem 0;
+}
+.PlatformConnection {
+  width: 15rem;
+  height: 11rem;
+  position: relative;
+  display: inline-block;
+  margin-right: 1rem;
+  background-color: #c2c5d8;
+  vertical-align: top;
+}
+.PlatformConnection-Name {
+  font-size: 1.4rem;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.PlatformConnection-Actions {
+  display: flex;
+  width: 3rem;
+  justify-content: space-between;
+}
+.PlatformConnection-Action {
+  cursor: pointer;
+}
+.PlatformConnection-Action svg {
+  fill: var(--dark-blue);
+}
+.PlatformConnection-Action.PlatformConnection-Action_Red svg {
+  fill: var(--text-color-red);
+}
+.PlatformConnection-Action.PlatformConnection-Action_Green svg {
+  fill: var(--text-color-green);
+}
+.PlatformConnections-Control {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.PlatformConnections-Control_Prev {
+  left: -3.5rem;
+}
+.PlatformConnections-Control_Next {
+  right: -3.5rem;
+}
+.PlatformVideo-Self {
+  position: absolute;
+  width: 25rem;
+  height: 16rem;
+  background-color: var(--platform-bg-grey);
+  z-index: 100;
+  right: 4.5rem;
+  bottom: calc(100% + 3rem);
+  right: 0;
+}
+.PlatformConnection-Icon {
+  width: 7rem;
+  height: 7rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--text-color);
+  margin: 1rem auto;
+}
+.PlatformConnection-Letters {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+.Platform {
+  display: flex;
+  padding-top: 6rem;
+}
+.Participants-Wrapper {
+  position: absolute;
+  top: 0;
+  height: 46vh;
+  width: 100%;
+}
+.PlatformChat-Wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 48vh;
+  transition: var(--transition-default);
+  z-index: 20;
+  background-color: #fff;
+}
+
+.PlatformSidepanel.PlatformChat_Minimized .PlatformChat,
+.PlatformSidepanel.PlatformChat_Minimized .PlatformChat-SendMessage {
+  height: 0;
+  display: none;
+}
+.PlatformSidepanel.PlatformChat_Minimized .Participants {
+  transition: var(--transition-default);
+  height: calc(100vh - 12rem);
+  width: 100%;
+}
+.PlatformSidepanel.PlatformChat_Minimized .PlatformChat-Wrapper {
+  height: 4rem;
+}
+.PlatformSidepanel.PlatformChat_Minimized .PlatformChat-MinBtn {
+  transform: rotateX(180deg);
+}
+.Participants-Wrapper.PlatformChat_Minimized {
+  height: calc(100% - 4rem);
+}
+.PlatformVideo_SingleView {
+  padding-top: 6rem;
+  position: relative;
+}
+.MeetingRoom,
+.PlatformVideo_SingleView {
+  margin-top: 4.5rem;
+  max-height: 88vh;
+  overflow-y: auto;
+  padding: 1rem 4.5rem;
+}
+.MeetingRoom {
+  padding: 1rem 0 1rem 4.5rem;
+}
+.MeetingRoom-Item {
+  display: inline-flex;
+  width: 22%;
+  height: 25vh;
+  align-self: flex-start;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  padding: 0;
+  margin: 0 2% 2% 0;
+  background-color: #c2c5d8;
+  vertical-align: top;
+}
+
+.MeetingRoom-ItemVideo {
+  width: 100%;
+  height: 25vh;
+  background: lightgray;
+}
+
+.MeetingRoom-ItemUserpic {
+  width: 8rem;
+  height: 8rem;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 0.1rem solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.MeetingRoom-ItemBar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MeetingRoom-ItemControlsWrapper {
+  margin-right: 0.7rem;
+}
+.MeetingRoom-ItemBarLabel {
+  display: flex;
+  font-size: 1.4rem;
+  font-family: var(--Roboto);
+  color: #fff;
+  align-items: center;
+}
+.MeetingRoom-ItemBarLabel > svg {
+  stroke: var(--dark-blue);
+  fill: none;
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 0.7rem;
+  fill-rule: evenodd;
+  padding: 0;
+}
+.Classroom {
+  height: calc(100% - 190px);
+  flex-wrap: wrap;
+  overflow-y: auto;
+  padding: 0.2rem;
+}
+.ClassroomItem {
+  width: 48%;
+  margin-right: 0.2rem;
+  height: 8.5rem;
+  margin-bottom: 0.4rem;
+  display: inline-block;
+}
+.ClassroomItem:even {
+  margin-right: 0;
+}
+.ClassroomItem-Name {
+  font-size: 1rem;
+}
+.ClassroomItem-Video {
+  width: 100%;
+}
+.MasterVideo {
+  margin-bottom: 0rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.Classroom::-webkit-scrollbar {
+  width: 0.5rem;
+}
+.Classroom::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+.Classroom::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.PlatformConnection-Actions.MasterVideo-Actions {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}
+.MasterVideo-Action {
+  margin-right: 1rem;
+}
